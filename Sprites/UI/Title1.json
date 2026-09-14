@@ -1,0 +1,26 @@
+{
+	"properties": {
+		"star_offset_x": -168,
+		"star_offset_y": -56
+	},
+	"variations": {
+		"SMB1": {
+			"source": "Title1.png", "rect": [0, 0, 208, 112],
+		},
+		"SMBLL": {
+			"choices": [
+				{"source": "Title1.png", "rect": [0, 112, 208, 112] },
+				{"source": "Title1.png", "rect": [0, 224, 208, 112] },
+			]
+		},
+		"SMBS": {
+			"source": "Title1.png", "rect": [0, 336, 208, 112]
+		},
+		"SMBANN": {
+			"source": "Title1.png", "rect": [0, 448, 208, 112]
+		},
+		"VSSMB": {
+			"source": "Title1.png", "rect": [0, 560, 208, 112]
+		},
+	}
+}

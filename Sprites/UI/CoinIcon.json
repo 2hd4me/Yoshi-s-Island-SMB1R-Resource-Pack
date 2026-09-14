@@ -1,0 +1,16 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 10, 9],
+			],
+			"speed": 10,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "CoinIcon.png",
+		}
+	}
+}
