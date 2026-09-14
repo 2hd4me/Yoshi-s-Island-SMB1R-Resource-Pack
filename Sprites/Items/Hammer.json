@@ -1,0 +1,34 @@
+{
+	"properties": {
+		"can_rotate": false,
+		"play_sfx": false
+	},
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 24, 24],
+				[24, 0, 24, 24],
+				[48, 0, 24, 24],
+				[72, 0, 24, 24],
+				[96, 0, 24, 24],
+				[120, 0, 24, 24],
+				[144, 0, 24, 24],
+				[168, 0, 24, 24],
+			],
+			"speed": 20,
+			"loop": true
+		},
+		"Hold": {
+			"frames": [
+				[0, 0, 1, 1],
+			],
+			"speed": 3,
+			"loop": false
+		},
+	},
+	"variations": {
+		"default": {
+			"source": "Hammer.png",
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"properties": {"can_rotate": false},
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16],
+				[48, 0, 16, 16],
+				[64, 0, 16, 16],
+				[80, 0, 16, 16],
+				[96, 0, 16, 16],
+				[112, 0, 16, 16],
+			],
+			"speed": 20,
+			"loop": true,
+			"loop_offset": 2,
+		}
+	},
+	"variations": {"source": "Fireball.png"}
+}

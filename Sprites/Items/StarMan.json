@@ -1,0 +1,25 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 24, 24],
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {
+		"SMB1": {
+			"source": "SuperStar.png",
+			"rect": [0, 0, 24, 24]
+		},
+		"SMBS": {
+			"source": "SuperStar.png",
+			"rect": [24, 0, 24, 24]
+		},
+		"SMBANN": {
+			"source": "SuperStar.png",
+			"rect": [48, 0, 24, 24]
+		},
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 24, 24],
+			],
+			"speed": 10,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "BridgeAxe.png",
+			"rect": [0, 0, 24, 24]
+		},
+	}
+}
