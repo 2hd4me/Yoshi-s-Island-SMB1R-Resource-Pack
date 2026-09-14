@@ -1,0 +1,7 @@
+{
+	"properties": {"can_tree_tint": false},
+	"variations": {
+		"default": {"source": "Trees.png"},
+		"Overworld": {"source": "Overworld.png"},
+	}
+}

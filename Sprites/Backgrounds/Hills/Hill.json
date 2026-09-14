@@ -1,0 +1,49 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 512, 512]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"Day": {"source": "Overworld.png"},
+			"Night": {"source": "Overworld.png"},
+		},
+		"Underground": {
+			"source": "Underground.png",
+			"animations": {
+				"default": {
+					"frames": [
+						[0, 0, 512, 512],
+						[512, 0, 512, 512],
+						[1024, 0, 512, 512],
+						[1536, 0, 512, 512],
+						[2048, 0, 512, 512]
+					],
+					"speed": 5,
+					"loop": true
+				}
+			},
+		},
+		"Castle": {
+			"source": "Castle.png",
+			"animations": {
+				"default": {
+					"frames": [
+						[0, 0, 512, 512],
+						[512, 0, 512, 512],
+						[1024, 0, 512, 512],
+						[1536, 0, 512, 512]
+					],
+					"speed": 5,
+					"loop": true
+				}
+			},
+		},
+		"Underwater": {
+			"Day": {"source": "Underwater.png"},
+		},
+	}
+}

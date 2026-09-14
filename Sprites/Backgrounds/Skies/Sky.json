@@ -1,0 +1,11 @@
+{
+	"properties": {
+		"sky_scroll_speed": 0,
+		"top_edge_enabled": false
+	},
+	"variations": {
+		"default": { "source": "DaySky.png" },
+		"Overworld": { "source": "Overworld.png" },
+		"Underground": { "source": "Underground.png" },
+	}
+}

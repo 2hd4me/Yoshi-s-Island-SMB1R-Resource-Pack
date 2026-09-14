@@ -1,0 +1,6 @@
+{
+	"variations": {
+		"default": {"source": "Bush.png"},
+		"Overworld": {"source": "Overworld.png"},
+	}
+}

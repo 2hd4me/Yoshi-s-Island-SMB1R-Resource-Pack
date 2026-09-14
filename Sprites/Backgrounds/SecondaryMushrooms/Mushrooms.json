@@ -1,0 +1,8 @@
+{
+	"properties": {"can_mushroom_tint": false},
+	"variations": {
+		"default": {"source": "Mushrooms.png"},
+		"Overworld": {"source": "Overworld.png"},
+			
+	}
+}
