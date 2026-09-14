@@ -1,0 +1,27 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[32, 0, 16, 32],
+				[16, 0, 16, 32],
+				[0, 0, 16, 32],
+			],
+			"speed": 15,
+			"loop": false
+		},
+		"Turn": {
+			"frames": [
+				[16, 0, 16, 32],
+				[32, 0, 16, 32],
+				[48, 0, 16, 32],
+			],
+			"speed": 15,
+			"loop": false
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "TrickBlock.png",
+		},
+	}
+}

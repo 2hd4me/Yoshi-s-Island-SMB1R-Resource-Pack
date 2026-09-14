@@ -1,0 +1,8 @@
+{
+	"variations": {
+		"default": {
+			"source": "BumpBlock.png",
+			"rect": [0, 0, 16, 16]
+		},
+	}
+}

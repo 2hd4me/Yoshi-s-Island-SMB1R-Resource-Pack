@@ -1,0 +1,8 @@
+{
+	"variations": {
+		"default": {
+			"source": "AnniversaryNumbers.png",
+			"rect": [0, 0, 32, 160]
+		},
+	}
+}
