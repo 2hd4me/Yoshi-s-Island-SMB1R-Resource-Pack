@@ -1,0 +1,19 @@
+{
+	"animations": {
+		"Walk": {
+			"frames": [
+				[0, 0, 24, 16],
+				[24, 0, 24, 16],
+				[48, 0, 24, 16],
+				[72, 0, 24, 16],
+			],
+			"speed": 8,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "BuzzyBeetle.png",
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[256, 0, 32, 48],
+				[256, 1, 32, 48],
+				[288, 1, 32, 48],
+				[288, 0, 32, 48],
+
+				[0, 0, 32, 48],
+				[0, 1, 32, 48],
+				[32, 1, 32, 48],
+				[32, 0, 32, 48],
+
+				[64, 0, 32, 48],
+				[64, 1, 32, 48],
+				[96, 1, 32, 48],
+				[96, 0, 32, 48],
+			],
+			"speed": 8,
+			"loop": true,
+			"loop_offset": 8
+		},
+		"Throw": {
+			"frames": [
+				[128, 0, 32, 48],
+				[128, 1, 32, 48],
+
+				[224, 1, 32, 48],
+				[224, 0, 32, 48],
+				[192, 0, 32, 48],
+				[192, 1, 32, 48],
+			],
+			"speed": 8,
+			"loop": true,
+			"loop_offset": 2
+		},
+		"Death": {
+			"frames": [
+				[320, 0, 32, 48],
+			],
+			"speed": 8,
+			"loop": true,
+		}
+	},
+	"variations": {
+		"default": {
+			"Metadata:Item": {
+				"Default": {
+					"source": "Lakitu.png",
+					"rect": [0, 48, 352, 48]
+				},
+				"Spiny": {
+					"source": "Lakitu.png",
+					"rect": [0, 0, 352, 48]
+				}
+			}
+		},
+		"Underwater": {
+			"Metadata:Item": {
+				"Default": {
+					"source": "Lakitu.png",
+					"rect": [0, 144, 352, 48]
+				},
+				"Spiny": {
+					"source": "Lakitu.png",
+					"rect": [0, 96, 352, 48]
+				}
+			}
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Beach": {"link": "Underwater"},
+	}
+}

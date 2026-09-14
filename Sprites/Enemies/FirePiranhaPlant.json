@@ -1,0 +1,54 @@
+{
+	"animations": {
+		"IdleUp": {
+			"frames": [
+				[32, 0, 32, 32],
+				[0, 0, 32, 32],
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"IdleDown": {
+			"frames": [
+				[32, 32, 32, 32],
+				[0, 32, 32, 32],
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"AimUp": {
+			"frames": [
+				[64, 0, 32, 32],
+			],
+			"speed": 2,
+			"loop": false
+		},
+		"AimDown": {
+			"frames": [
+				[64, 32, 32, 32],
+			],
+			"speed": 2,
+			"loop": false
+		},
+		"ShootUp": {
+			"frames": [
+				[96, 0, 32, 32],
+			],
+			"speed": 5,
+			"loop": false
+		},
+		"ShootDown": {
+			"frames": [
+				[96, 32, 32, 32],
+			],
+			"speed": 5,
+			"loop": false
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [0, 0, 160, 64]
+		}
+	}
+}

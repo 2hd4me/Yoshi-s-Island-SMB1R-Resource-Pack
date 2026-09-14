@@ -1,0 +1,24 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 24],
+				[16, 0, 16, 24]
+			],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"SMB1": {
+				"source": "PiranhaPlant.png",
+				"rect": [0, 0, 32, 24]
+			},
+			"SMBANN": {
+				"source": "DiscoPiranha.png",
+				"rect": [0, 0, 32, 24]
+			}
+		},
+	}
+}

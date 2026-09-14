@@ -1,0 +1,18 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 24, 24],
+				[24, 0, 24, 24],
+			],
+			"speed": 4,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "CheepCheep.png",
+			"rect": [0, 0, 408, 24]
+		}
+	}
+}

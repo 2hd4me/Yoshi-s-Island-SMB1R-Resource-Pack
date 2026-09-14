@@ -1,0 +1,27 @@
+{
+	"properties": {"can_rotate": false},
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16],
+				[48, 0, 16, 16],
+				[64, 0, 16, 16],
+				[80, 0, 16, 16],
+			],
+			"speed": 10,
+			"loop": true
+		}
+	},
+	"variations": {
+		"sequence": [
+			{"source": "Fireball.png", "rect": [0, 0, 96, 16] },
+			{"source": "Fireball.png", "rect": [0, 16, 96, 16] },
+			{"source": "Fireball.png", "rect": [0, 32, 96, 16] },
+			{"source": "Fireball.png", "rect": [0, 48, 96, 16] },
+			{"source": "Fireball.png", "rect": [0, 64, 96, 16] },
+			{"source": "Fireball.png", "rect": [0, 80, 96, 16] },
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"properties": {"smooth_rotation": true},
+	"animations": {
+		"Normal": {
+			"frames": [
+				[0, 0, 24, 18],
+				[24, 0, 24, 18],
+			],
+			"speed": 8,
+			"loop": true
+		},
+		"Diagonal": {
+			"frames": [[16, 0, 16, 16]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {"source": "HomingBill.png"}
+}

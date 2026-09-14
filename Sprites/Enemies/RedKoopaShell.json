@@ -1,0 +1,39 @@
+{
+	"properties": {
+		"can_turn": true,
+		"flipped_offset": [0, 2]
+	},
+	"animations": {
+		"Idle": {
+			"frames": [
+				[256, 16, 16, 16],
+			],
+			"speed": 40,
+			"loop": false
+		},
+		"Spin": {
+			"frames": [
+				[272, 16, 16, 16],
+				[288, 16, 16, 16],
+				[304, 16, 16, 16],
+				[256, 16, 16, 16]
+			],
+			"speed": 15,
+			"loop": true
+		},
+		"Wake": {
+			"frames": [
+				[320, 16, 32, 16],
+				[352, 16, 32, 16],
+			],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "KoopaTroopa.png",
+			"rect": [0, 80, 448, 80]
+		},
+	}
+}
