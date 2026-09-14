@@ -1,0 +1,7 @@
+{
+	"variations": {
+		"World1": { "source": "CastleClear.mp3" },
+		"World8": { "source": "FinalCastleClear.mp3" },
+		"World13": { "source": "FinalCastleClear.mp3" },
+	}
+}
