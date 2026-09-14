@@ -1,0 +1,19 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 64, 48], 
+				[64, 0, 64, 48], 
+				[128, 0, 64, 48],
+				[192, 0, 64, 48]
+			],
+			"speed": 7.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "Flag.png",
+		}
+	}
+}

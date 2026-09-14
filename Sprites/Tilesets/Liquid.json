@@ -1,0 +1,6 @@
+{
+	"variations": {
+		"Day": { "source": "Liquid.png" },
+		"Night": {"source": "NightLiquid.png"}
+	}
+}

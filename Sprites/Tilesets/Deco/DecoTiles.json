@@ -1,0 +1,14 @@
+{
+	"variations": {
+		"default": {
+			"Day": {
+				"source": "OverworldDeco.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "OverworldDeco.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+	}
+}

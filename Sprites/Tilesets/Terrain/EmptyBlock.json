@@ -1,0 +1,44 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 16, 16]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"choices": [ 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [0, 0, 16, 16] }, 
+
+			{ "source": "EmptyBlock.png", "rect": [16, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [16, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [16, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [16, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [16, 0, 16, 16] }, 
+			{ "source": "EmptyBlock.png", "rect": [16, 0, 16, 16] }, 
+
+			{ "source": "EmptyBlock.png", "rect": [32, 0, 16, 16] }, 
+
+			{ "source": "EmptyBlock.png", "rect": [48, 0, 16, 16] }, 
+		]
+	}
+}
