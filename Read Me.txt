@@ -19,6 +19,5 @@ This pack is not accepting contributions at this moment, thank you for understan
 Some specific things I want to bring to your attention:
 
 	- The audio balancing on sound effects sucks right now, that will be fixed in the future.
-	- There is no music yet, this will of course be fixed later.
 	- Yoshi replaces Mario for the time being. In the future Mario will be Mario, and Yoshi will be a bonus custom character.
 	- A few things don't work correct yet because of SMB1R bugs/limitations. I *hope* those will be fixed, but I can't promise it.
