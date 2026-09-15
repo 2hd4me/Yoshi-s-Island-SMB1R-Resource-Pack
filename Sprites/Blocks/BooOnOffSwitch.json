@@ -16,8 +16,7 @@
 				[160, 0, 32, 32],
 			],
 			"speed": 32,
-			"loop": true,
-			"loop_offset": 5
+			"loop": false,
 		},
 		"On": {
 			"frames": [
@@ -30,8 +29,7 @@
 				[160, 32, 32, 32],
 			],
 			"speed": 32,
-			"loop": true,
-			"loop_offset": 5
+			"loop": false,
 		},
 	},
 	"variations": {"source": "BooOnOffSwitch.png"}
