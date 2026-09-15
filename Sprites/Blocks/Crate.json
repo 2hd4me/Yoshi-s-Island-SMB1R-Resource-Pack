@@ -1,0 +1,10 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 18, 18]],
+			"speed": 5,
+			"loop": false
+		}
+	},
+	"variations": {"source": "Crate.png"}
+}
