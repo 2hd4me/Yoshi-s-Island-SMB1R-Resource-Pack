@@ -1,0 +1,10 @@
+{
+	"variations": {
+		"sequence": [
+			{"source": "SuperballTrail.png", "rect": [0, 0, 16, 16] },
+			{"source": "SuperballTrail.png", "rect": [16, 0, 16, 16] },
+			{"source": "SuperballTrail.png", "rect": [32, 0, 16, 16] },
+			{"source": "SuperballTrail.png", "rect": [48, 0, 16, 16] },
+		]
+	}
+}
