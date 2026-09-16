@@ -27,8 +27,22 @@
 		},
 	},
 	"variations": {
-		"default": {
-			"source": "Hammer.png",
+		"Metadata:HammerType": {
+			"Default": {"source": "Hammer.png"},
+			"Bowser": {
+				"source": "Hammer.png",
+				"animation_overrides": {
+					"Hold": {
+						"frames": [
+							[0, 24, 64, 40],
+							[64, 24, 64, 40],
+							[128, 24, 64, 40],
+						],
+						"speed": 30,
+						"loop": false
+					},
+				}
+			}
 		}
 	}
 }
