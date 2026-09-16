@@ -30,16 +30,34 @@
 		"Metadata:HammerType": {
 			"Default": {"source": "Hammer.png"},
 			"Bowser": {
-				"source": "Hammer.png",
-				"animation_overrides": {
-					"Hold": {
-						"frames": [
-							[0, 24, 64, 40],
-							[64, 24, 64, 40],
-							[128, 24, 64, 40],
-						],
-						"speed": 30,
-						"loop": false
+				"Metadata:IsBowserBro": {
+					"false": {
+						"source": "Hammer.png",
+						"animation_overrides": {
+							"Hold": {
+								"frames": [
+									[0, 24, 64, 40],
+									[64, 24, 64, 40],
+									[128, 24, 64, 40],
+								],
+								"speed": 30,
+								"loop": false
+							},
+						}
+					},
+					"true": {
+						"source": "Hammer.png",
+						"animation_overrides": {
+							"Hold": {
+								"frames": [
+									[0, 64, 64, 40],
+									[64, 64, 64, 40],
+									[128, 64, 64, 40],
+								],
+								"speed": 30,
+								"loop": false
+							},
+						}
 					},
 				}
 			}
