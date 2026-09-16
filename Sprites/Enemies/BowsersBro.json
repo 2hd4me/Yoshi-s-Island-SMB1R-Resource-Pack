@@ -89,7 +89,14 @@
 			],
 			"speed": 20,
 			"loop": false
-		}
+		},
+		"Death": {
+			"frames": [
+				[320, 240, 64, 80],
+			],
+			"speed": 20,
+			"loop": false
+		},
 	},
 	"variations": {"source": "BowsersBro.png"}
 }
