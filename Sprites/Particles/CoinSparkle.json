@@ -1,0 +1,9 @@
+{
+	"properties": {
+		"amount": 1,
+		"process_material.emission_shape": 0,
+		"material.particles_anim_h_frames": 14,
+		"lifetime": 1
+	},
+	"variations": {"source": "CoinSparkle.png"}
+}
