@@ -1,0 +1,15 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 32, 48], 
+				[32, 0, 32, 48], 
+				[64, 0, 32, 48],
+				[96, 0, 32, 48], 
+			],
+			"speed": 8,
+			"loop": true
+		}
+	},
+	"variations": {"source": "CastleFlag.png",}
+}
