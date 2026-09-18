@@ -9,7 +9,7 @@
 	"variations": {
 		"default": {
 			"Day": {"source": "Overworld.png"},
-			"Night": {"source": "Overworld.png"},
+			"Night": {"source": "OverworldNight.png"},
 		},
 		"Underground": {
 			"source": "Underground.png",
@@ -42,8 +42,57 @@
 				}
 			},
 		},
+		"Desert": {
+			"Day": {"source": "Desert.png"},
+			"Night": {"source": "DesertNight.png"},
+		},
 		"Underwater": {
 			"Day": {"source": "Underwater.png"},
+			"Night": {"source": "Underwater.png"},
+		},
+		"Snow": {
+			"Day": {"source": "Snow.png"},
+			"Night": {"source": "SnowNight.png"},
+		},
+		"Jungle": {
+			"Day": {
+				"source": "Jungle.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[2560, 0, 512, 512],
+							[3072, 0, 512, 512],
+							[3584, 0, 512, 512]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				},
+			},
+			"Night": {
+				"source": "JungleNight.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[2560, 0, 512, 512],
+							[3072, 0, 512, 512],
+							[3584, 0, 512, 512]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				},
+			},
 		},
 	}
 }
