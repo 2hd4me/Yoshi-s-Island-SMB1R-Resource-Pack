@@ -1,5 +1,7 @@
 {
 	"variations": {
-		"default": {"source": "CloudOverlay.png"},	
+		"default": {"source": "CloudOverlay.png"},
+		"Desert": {"source": "Jungle.png"},		
+		"Jungle": {"source": "Jungle.png"},	
 	}
 }
