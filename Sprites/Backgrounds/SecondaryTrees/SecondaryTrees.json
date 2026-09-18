@@ -2,6 +2,21 @@
 	"properties": {"can_tree_tint": false},
 	"variations": {
 		"default": {"source": "Trees.png"},
-		"Overworld": {"source": "Overworld.png"},
+		"Overworld": {			
+			"Day": { "source": "Overworld.png" },
+			"Night": { "source": "OverworldNight.png" },
+		},
+		"Desert": {			
+			"Day": { "source": "Desert.png" },
+			"Night": { "source": "DesertNight.png" },
+		},
+		"Snow": {			
+			"Day": { "source": "Snow.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
+		"Jungle": {			
+			"Day": { "source": "Jungle.png" },
+			"Night": { "source": "JungleNight.png" },
+		},
 	}
 }
