@@ -5,7 +5,26 @@
 	},
 	"variations": {
 		"default": { "source": "DaySky.png" },
-		"Overworld": { "source": "Overworld.png" },
+		"Overworld": { 
+			"Day": { "source": "Overworld.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
 		"Underground": { "source": "Underground.png" },
+		"Desert": { 
+			"Day": { "source": "Desert.png" },
+			"Night": { "source": "DesertNight.png" },
+		},
+		"Underwater": { 
+			"Day": { "source": "Desert.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
+		"Snow": { 
+			"Day": { "source": "Snow.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
+		"Jungle": { 
+			"Day": { "source": "Jungle.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
 	}
 }
