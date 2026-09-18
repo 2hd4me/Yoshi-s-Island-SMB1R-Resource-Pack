@@ -1,6 +1,32 @@
 {
 	"variations": {
 		"default": {"source": "Bush.png"},
-		"Overworld": {"source": "Overworld.png"},
+		"Overworld": {
+			"Day": { "source": "Overworld.png" },
+			"Night": { "source": "OverworldNight.png" },
+		},
+		"Desert": { 
+			"Day": { "source": "Bush.png" },
+			"Night": { 			
+				"source": "DesertNight.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512]
+						],
+						"speed": 5,
+						"loop": true
+					}
+				},
+			},
+		},
+		"Snow": {
+			"Day": { "source": "Snow.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
+		"Jungle": {"source": "Jungle.png"},
 	}
 }
