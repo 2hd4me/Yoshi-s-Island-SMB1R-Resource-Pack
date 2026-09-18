@@ -3,13 +3,13 @@
 		"RoomType:TitleScreen": {
 			"SMB1": {
 				"World1": {"theme": "Overworld", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
-				"World2": {"theme": "Desert", "time": "Day"},
-				"World3": {"theme": "Snow", "time": "Day"},
-				"World4": {"theme": "Jungle", "time": "Day"},
-				"World5": {"theme": "Desert", "time": "Night"},
-				"World6": {"theme": "Snow", "time": "Night"},
-				"World7": {"theme": "Jungle", "time": "Night"},
-				"World8": {"theme": "Overworld", "time": "Night"}
+				"World2": {"theme": "Desert", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
+				"World3": {"theme": "Snow", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
+				"World4": {"theme": "Jungle", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
+				"World5": {"theme": "Desert", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
+				"World6": {"theme": "Snow", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
+				"World7": {"theme": "Jungle", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
+				"World8": {"theme": "Overworld", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
 			},
 			"SMBLL": {
 				"World1": {"theme": "Overworld", "time": "Day"},
@@ -59,11 +59,25 @@
 								"primary_bg": 0,
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"}
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Underground", "time": "Day", "music": "Underground"},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
+							"RoomType:Default": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground"
+							},
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							},
 							"RoomType:PipeCutscene": {
 								"theme": "Overworld", 
 								"time": "Day", 
@@ -81,98 +95,271 @@
 							"primary_bg": 1,
 							"secondary_bg": 1
 						},
-						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"music": "Castle", 
+							"particles": 3
+						}
 					},
 					"World2": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Desert", "time": "Day", "music": "Desert"},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Day"}
+							"RoomType:Default": {
+								"theme": "Desert", 
+								"time": "Day", 
+								"music": "Desert",
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							},
+							"RoomType:CoinHeaven": {
+								"theme": "Desert", 
+								"time": "Day",
+								"secondary_bg": 2
+							}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Underwater", "time": "Day", "music": "Underwater"},
-							"RoomType:PipeCutscene": {"theme": "Desert", "time": "Day", "music": "Desert", "liquid": 1},
+							"RoomType:Default": {
+								"theme": "Underwater", 
+								"time": "Day", 
+								"music": "Underwater"
+							},
+							"RoomType:PipeCutscene": {
+								"theme": "Desert", 
+								"time": "Day", 
+								"music": "Desert", 
+								"liquid": 1,
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
 							"RoomType:SublevelExit": {"link": "RoomType:PipeCutscene"}
 						},
-						"Level3": {"theme": "Desert", "time": "Day", "music": "Desert", "extra_bgm": "Athletic", "liquid": 1},
+						"Level3": {
+							"theme": "Desert", 
+							"time": "Day", 
+							"music": "Desert", 
+							"extra_bgm": "Athletic", 
+							"liquid": 1,
+							"primary_bg": 0,
+							"secondary_bg": 2
+						},
 						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
 					},
 					"World3": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Snow", "time": "Day", "music": "Snow", "particles": 1},
+							"RoomType:Default": {
+								"theme": "Snow", 
+								"time": "Day", 
+								"music": "Snow", 
+								"particles": 1,
+								"primary_bg": 0, 
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
 							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Day"}
 						},
-						"Level2": {"theme": "Snow", "time": "Day", "music": "Snow", "particles": 1},
-						"Level3": {"theme": "Snow", "time": "Day", "music": "Snow", "extra_bgm": "Athletic", "particles": 1},
+						"Level2": {
+							"theme": "Snow", 
+							"time": "Day", 
+							"music": "Snow", 
+							"particles": 1,
+							"primary_bg": 0, 
+							"secondary_bg": 2
+						},
+						"Level3": {
+							"theme": "Snow", 
+							"time": "Day", 
+							"music": "Snow", 
+							"extra_bgm": "Athletic", 
+							"particles": 1,
+							"primary_bg": 1, 
+							"secondary_bg": 1
+						},
 						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
 					},
 					"World4": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Jungle", "time": "Day", "music": "Jungle", "particles": 2},
+							"RoomType:Default": {
+								"theme": "Jungle", 
+								"time": "Day", 
+								"music": "Jungle", 
+								"particles": 2,
+								"primary_bg": 0, 
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"}
 						},
 						"Level2": {
 							"RoomType:Default": {
-								"default": {"theme": "Jungle", "time": "Day", "music": "Jungle", "extra_bgm": "Athletic", "primary_bg": 1},
+								"default": {
+									"theme": "Jungle", 
+									"time": "Day", 
+									"music": "Jungle", 
+									"extra_bgm": "Athletic", 
+									"primary_bg": 0, 
+									"secondary_bg": 2
+								},
 								"Underground": {"theme": "Underground", "time": "Day", "music": "Underground"}
 							},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:PipeCutscene": {"theme": "Jungle", "time": "Day", "music": "Jungle", "particles": 2},
+							"RoomType:PipeCutscene": {
+								"theme": "Jungle", 
+								"time": "Day", 
+								"music": "Jungle", 
+								"primary_bg": 0, 
+								"secondary_bg": 2
+							},
 							"RoomType:SublevelExit": {"link": "RoomType:PipeCutscene"}
 						},
-						"Level3": {"theme": "Jungle", "time": "Day", "music": "Jungle", "extra_bgm": "Athletic", "primary_bg": 1},
+						"Level3": {
+								"theme": "Jungle", 
+								"time": "Day", 
+								"music": "Jungle", 
+								"extra_bgm": "Athletic", 
+								"primary_bg": 1, 
+								"secondary_bg": 1
+						},
 						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
 					},
 					"World5": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Desert", "time": "Night", "music": "Desert"},
+							"RoomType:Default": {
+								"theme": "Desert", 
+								"time": "Night", 
+								"music": "Desert", 
+								"primary_bg": 0, 
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Desert", "time": "Night", "music": "Desert"},
+							"RoomType:Default": {
+								"theme": "Desert", 
+								"time": "Night", 
+								"music": "Desert", 
+								"primary_bg": 0, 
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": {"theme": "Underwater", "time": "Night", "music": "Underwater"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Night"}
+							"RoomType:CoinHeaven": {
+								"theme": "Desert", 
+								"time": "Night", 
+								"secondary_bg": 2
+							}
 						},
-						"Level3": {"theme": "Desert", "time": "Night", "music": "Desert", "extra_bgm": "Athletic"},
+						"Level3": {
+							"theme": "Desert", 
+							"time": "Night", 
+							"music": "Desert", 
+							"extra_bgm": "Athletic",
+							"primary_bg": 1, 
+							"secondary_bg": 1,
+							"second_layer_order": 0
+						},
 						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
 					},
 					"World6": {
-						"Level1": {"theme": "Snow", "time": "Night", "music": "Snow", "particles": 1},
+						"Level1": {
+							"theme": "Snow", 
+							"time": "Night", 
+							"music": "Snow", 
+							"particles": 1, 
+							"primary_bg": 0, 
+							"secondary_bg": 2
+						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Snow", "time": "Night", "music": "Snow", "particles": 1},
+							"RoomType:Default": {
+								"theme": "Snow", 
+								"time": "Night", 
+								"music": "Snow", 
+								"particles": 1, 
+								"primary_bg": 0, 
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": { 
 								"default": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"},
 								"Underwater": {"theme": "Underwater", "time": "Night", "music": "Underwater"}
 							},
 							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Night"}
 						},
-						"Level3": {"theme": "Snow", "time": "Night", "music": "Snow", "extra_bgm": "Athletic", "particles": 1},
+						"Level3": {
+							"theme": "Snow", 
+							"time": "Night", 
+							"music": "Snow", 
+							"extra_bgm": "Athletic", 
+							"particles": 1, 
+							"primary_bg": 1, 
+							"secondary_bg": 1
+						},
 						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
 					},
 					"World7": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Jungle", "time": "Night", "music": "Jungle", "primary_bg": 1},
+							"RoomType:Default": {
+								"theme": "Jungle", 
+								"time": "Night", 
+								"music": "Jungle", 
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Underwater", "time": "Night", "music": "Underwater"},
-							"RoomType:PipeCutscene": {"theme": "Jungle", "time": "Night", "music": "Jungle", "primary_bg": 1, "liquid": 1},
+							"RoomType:PipeCutscene": {
+								"theme": "Jungle", 
+								"time": "Night", 
+								"music": "Jungle", 
+								"liquid": 1, 
+								"primary_bg": 0,
+								"secondary_bg": 2
+								},
 							"RoomType:SublevelExit": {"link": "RoomType:PipeCutscene"}
 						},
-						"Level3": {"theme": "Jungle", "time": "Night", "music": "Jungle", "extra_bgm": "Athletic", "primary_bg": 1, "liquid": 1},
+						"Level3": {
+							"theme": "Jungle", 
+							"time": "Night", 
+							"music": "Jungle", 
+							"extra_bgm": "Athletic", 
+							"liquid": 1, 
+							"primary_bg": 0,
+							"secondary_bg": 2
+							},
 						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
 					},
 					"World8": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld"},
+							"RoomType:Default": {
+								"theme": "Overworld", 
+								"time": "Night", 
+								"music": "Overworld", 
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld"},
+							"RoomType:Default": {
+								"theme": "Overworld", 
+								"time": "Night", 
+								"music": "Overworld", 
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
 						},
-						"Level3": {"theme": "Overworld", "time": "Night", "music": "Overworld"},
+						"Level3": {
+							"theme": "Overworld", 
+							"time": "Night", 
+							"music": "Overworld", 
+							"primary_bg": 1,
+							"secondary_bg": 1
+						},
 						"Level4": {
 							"default": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3},
 							"CastleWater": {"theme": "CastleWater", "time": "Night", "music": "Underwater"}
