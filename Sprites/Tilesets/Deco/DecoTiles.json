@@ -2,11 +2,41 @@
 	"variations": {
 		"default": {
 			"Day": {
-				"source": "OverworldDeco.png",
+				"source": "Overworld.png",
 				"rect": [0, 0, 80, 32]
 			},
 			"Night": {
-				"source": "OverworldDeco.png",
+				"source": "Overworld.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Desert": {
+			"Day": {
+				"source": "Desert.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Desert.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Snow": {
+			"Day": {
+				"source": "Snow.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Snow.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Jungle": {
+			"Day": {
+				"source": "Jungle.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Jungle.png",
 				"rect": [0, 32, 80, 32]
 			}
 		},
