@@ -349,17 +349,64 @@
 			],
 			"speed": 5.0,
 			"loop": false
-		}
+		},
+		"WingIdle": {
+			"frames": [
+				[0, 384, 48, 48],
+			],
+			"speed": 5.0,
+			"loop": false
+		},
+		"WingLookUp": {
+			"frames": [
+				[48, 384, 48, 48],
+			],
+			"speed": 5.0,
+			"loop": false
+		},
+		"WingCrouch": {
+			"frames": [
+				[96, 384, 48, 48],
+			],
+			"speed": 5.0,
+			"loop": false
+		},
+		"WingMove": {
+			"frames": [
+				[144, 384, 48, 48],
+				[192, 384, 48, 48],
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"FlyIdle": {
+			"frames": [
+				[240, 384, 48, 48],
+				[288, 384, 48, 48],
+			],
+			"speed": 6.0,
+			"loop": true
+		},
+		"FlyUp": {
+			"frames": [
+				[240, 384, 48, 48],
+				[288, 384, 48, 48],
+			],
+			"speed": 12.0,
+			"loop": true
+		},
+		"FlyAttack": {
+			"frames": [
+				[240, 384, 48, 48],
+				[288, 384, 48, 48],
+			],
+			"speed": 12.0,
+			"loop": true
+		},
 	},
 	"variations": {
 		"default": {
 			"source": "Superball.png",
-			"rect": [
-				0.0,
-				0.0,
-				768.0,
-				384.0
-			]
 		}
 	}
 }
