@@ -8,13 +8,16 @@
 			"SMB1": {"source": "Underground.png"},
 		},
 		"Desert": {
-			"SMB1": {"source": "Desert.png"},
+			"Day": {"source": "Desert.png"},
+			"Night": {"source": "DesertNight.png"},
 		},
 		"Snow": {
-			"SMB1": {"source": "Snow.png"},
+			"Day": {"source": "Snow.png"},
+			"Night": {"source": "SnowNight.png"},
 		},
 		"Jungle": {
-			"SMB1": {"source": "Jungle.png"},
+			"Day": {"source": "Jungle.png"},
+			"Night": {"source": "JungleNight.png"},
 		},
 		"Beach": {
 			"SMB1": {"source": "Beach.png"},
