@@ -93,6 +93,11 @@
 					}
 				},
 			},
+
+		},
+		"CastleWater": {
+			"Day": {"source": "CastleWater.png"},
+			"Night": {"source": "CastleWater.png"},
 		},
 	}
 }
