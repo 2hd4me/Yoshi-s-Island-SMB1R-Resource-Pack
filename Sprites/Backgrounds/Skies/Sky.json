@@ -26,5 +26,9 @@
 			"Day": { "source": "Jungle.png" },
 			"Night": { "source": "SnowNight.png" },
 		},
+		"CastleWater": { 
+			"Day": { "source": "Overworld.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
 	}
 }
