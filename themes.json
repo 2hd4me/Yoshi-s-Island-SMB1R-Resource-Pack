@@ -4,11 +4,11 @@
 			"SMB1": {
 				"World1": {"theme": "Overworld", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
 				"World2": {"theme": "Desert", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
-				"World3": {"theme": "Snow", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
-				"World4": {"theme": "Jungle", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
+				"World3": {"theme": "Snow", "time": "Day", "primary_bg": 0, "secondary_bg": 2, "particles": 1, },
+				"World4": {"theme": "Jungle", "time": "Day", "primary_bg": 0, "secondary_bg": 2, "particles": 2, },
 				"World5": {"theme": "Desert", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
-				"World6": {"theme": "Snow", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
-				"World7": {"theme": "Jungle", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
+				"World6": {"theme": "Snow", "time": "Night", "primary_bg": 0, "secondary_bg": 2, "particles": 1, },
+				"World7": {"theme": "Jungle", "time": "Night", "primary_bg": 0, "secondary_bg": 2, "particles": 2, },
 				"World8": {"theme": "Overworld", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
 			},
 			"SMBLL": {
@@ -148,7 +148,12 @@
 							"primary_bg": 0,
 							"secondary_bg": 2
 						},
-						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"music": "Castle", 
+							"particles": 3
+						}
 					},
 					"World3": {
 						"Level1": {
@@ -160,8 +165,18 @@
 								"primary_bg": 0, 
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Day"}
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							},
+							"RoomType:CoinHeaven": {
+								"theme": "Snow", 
+								"time": "Day", 
+								"secondary_bg": 1, 
+								"particles": 1,
+							}
 						},
 						"Level2": {
 							"theme": "Snow", 
@@ -180,7 +195,12 @@
 							"primary_bg": 1, 
 							"secondary_bg": 1
 						},
-						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"music": "Castle", 
+							"particles": 3
+						}
 					},
 					"World4": {
 						"Level1": {
@@ -192,7 +212,12 @@
 								"primary_bg": 0, 
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"}
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {
@@ -201,30 +226,47 @@
 									"time": "Day", 
 									"music": "Jungle", 
 									"extra_bgm": "Athletic", 
+									"particles": 2,
 									"primary_bg": 0, 
 									"secondary_bg": 2
 								},
-								"Underground": {"theme": "Underground", "time": "Day", "music": "Underground"}
+								"Underground": {
+									"theme": "Underground", 
+									"time": "Day", 
+									"music": "Underground"
+								}
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Day", "music": 
+								"Underground", 
+								"extra_bgm": "Bonus"
+							},
 							"RoomType:PipeCutscene": {
 								"theme": "Jungle", 
 								"time": "Day", 
 								"music": "Jungle", 
+								"particles": 2,
 								"primary_bg": 0, 
 								"secondary_bg": 2
 							},
 							"RoomType:SublevelExit": {"link": "RoomType:PipeCutscene"}
 						},
 						"Level3": {
-								"theme": "Jungle", 
-								"time": "Day", 
-								"music": "Jungle", 
-								"extra_bgm": "Athletic", 
-								"primary_bg": 1, 
-								"secondary_bg": 1
+							"theme": "Jungle", 
+							"time": "Day", 
+							"music": "Jungle", 
+							"extra_bgm": "Athletic", 
+							"particles": 2,
+							"primary_bg": 1, 
+							"secondary_bg": 1
 						},
-						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"music": "Castle", 
+							"particles": 3
+						}
 					},
 					"World5": {
 						"Level1": {
@@ -235,7 +277,12 @@
 								"primary_bg": 0, 
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {
@@ -245,7 +292,11 @@
 								"primary_bg": 0, 
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underwater", "time": "Night", "music": "Underwater"},
+							"RoomType:BonusRoom": {
+								"theme": "Underwater", 
+								"time": "Night", 
+								"music": "Underwater"
+							},
 							"RoomType:CoinHeaven": {
 								"theme": "Desert", 
 								"time": "Night", 
@@ -261,7 +312,12 @@
 							"secondary_bg": 1,
 							"second_layer_order": 0
 						},
-						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Night", 
+							"music": "Castle", 
+							"particles": 3
+						}
 					},
 					"World6": {
 						"Level1": {
@@ -282,10 +338,24 @@
 								"secondary_bg": 2
 							},
 							"RoomType:BonusRoom": { 
-								"default": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"},
-								"Underwater": {"theme": "Underwater", "time": "Night", "music": "Underwater"}
+								"default": {
+									"theme": "Underground", 
+									"time": "Night", 
+									"music": "Underground", 
+									"extra_bgm": "Bonus"
+								},
+								"Underwater": {
+									"theme": "Underwater", 
+									"time": "Night", 
+									"music": "Underwater"
+								}
 							},
-							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Night"}
+							"RoomType:CoinHeaven": {
+								"theme": "Snow", 
+								"time": "Night", 
+								"particles": 1, 
+								"secondary_bg": 1
+							}
 						},
 						"Level3": {
 							"theme": "Snow", 
@@ -296,7 +366,12 @@
 							"primary_bg": 1, 
 							"secondary_bg": 1
 						},
-						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Night", 
+							"music": "Castle", 
+							"particles": 3
+						}
 					},
 					"World7": {
 						"Level1": {
@@ -304,17 +379,28 @@
 								"theme": "Jungle", 
 								"time": "Night", 
 								"music": "Jungle", 
+								"particles": 2,
 								"primary_bg": 0,
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Underwater", "time": "Night", "music": "Underwater"},
+							"RoomType:Default": {
+								"theme": "Underwater", 
+								"time": "Night", 
+								"music": "Underwater"
+							},
 							"RoomType:PipeCutscene": {
 								"theme": "Jungle", 
 								"time": "Night", 
 								"music": "Jungle", 
+								"particles": 2,
 								"liquid": 1, 
 								"primary_bg": 0,
 								"secondary_bg": 2
@@ -325,12 +411,18 @@
 							"theme": "Jungle", 
 							"time": "Night", 
 							"music": "Jungle", 
-							"extra_bgm": "Athletic", 
+							"extra_bgm": "Athletic",
+							"particles": 2, 
 							"liquid": 1, 
 							"primary_bg": 0,
 							"secondary_bg": 2
-							},
-						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
+						},
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Night", 
+							"music": "Castle", 
+							"particles": 3
+						}
 					},
 					"World8": {
 						"Level1": {
@@ -341,7 +433,12 @@
 								"primary_bg": 0,
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {
@@ -351,7 +448,12 @@
 								"primary_bg": 0,
 								"secondary_bg": 2
 							},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus"
+							}
 						},
 						"Level3": {
 							"theme": "Overworld", 
@@ -361,14 +463,40 @@
 							"secondary_bg": 1
 						},
 						"Level4": {
-							"default": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3},
-							"CastleWater": {"theme": "CastleWater", "time": "Night", "music": "Underwater"}
+							"default": {
+								"theme": "Castle", 
+								"time": "Night", 
+								"music": "Castle", 
+								"particles": 3
+							},
+							"CastleWater": {
+								"theme": "CastleWater", 
+								"time": "Night", 
+								"music": "Castle"
+							}
 						}
 					},
 					"World-1": {
-						"Level1": {"theme": "Underwater", "time": "Day", "music": "Underwater"},
-						"Level2": {"theme": "Overworld", "time": "Day", "music": "Overworld", "extra_bgm": "Athletic", "liquid": 2},
-						"Level3": {"theme": "Underground", "time": "Day", "music": "Underground", "particles": 1}
+						"Level1": {
+							"theme": "Underwater", 
+							"time": "Day", 
+							"music": "Underwater"
+						},
+						"Level2": {
+							"theme": "Overworld", 
+							"time": "Day", 
+							"music": "Overworld", 
+							"extra_bgm": "Athletic", 
+							"liquid": 2, 
+							"primary_bg": 1,
+							"secondary_bg": 1
+						},
+						"Level3": {
+							"theme": "Underground", 
+							"time": "Day", 
+							"music": "Underground", 
+							"particles": 1
+						}
 					}
 				},
 				"SMBLL": {
@@ -816,16 +944,51 @@
 			"GameMode:BooRace": {
 				"SMB1": {
 					"World1": {
-						"Level1": {"theme": "Overworld", "time": "Day"},
-						"Level2": {"theme": "Underground", "time": "Day"},
-						"Level3": {"theme": "Overworld", "time": "Day"},
-						"Level4": {"theme": "Castle", "time": "Day", "particles": 3}
+						"Level1": {
+							"theme": "Overworld", 
+							"time": "Day", 
+							"primary_bg": 0,
+							"secondary_bg": 2
+						},
+						"Level2": {
+							"theme": "Underground", 
+							"time": "Day"
+						},
+						"Level3": {
+							"theme": "Overworld", 
+							"time": "Day", 
+							"primary_bg": 1,
+							"secondary_bg": 1
+						},
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"particles": 3
+						}
 					},
 					"World2": {
-						"Level1": {"theme": "Desert", "time": "Day"},
-						"Level2": {"theme": "Underwater", "time": "Day"},
-						"Level3": {"theme": "Jungle", "time": "Night", "primary_bg": 1},
-						"Level4": {"theme": "Castle", "time": "Day", "particles": 3}
+						"Level1": {
+							"theme": "Desert", 
+							"time": "Day", 
+							"primary_bg": 0,
+							"secondary_bg": 2
+						},
+						"Level2": {
+							"theme": "Underwater", 
+							"time": "Day"
+						},
+						"Level3": {
+							"theme": "Jungle", 
+							"time": "Night", 
+							"primary_bg": 0,
+							"primary_bg": 2,
+							"particles": 2
+						},
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"particles": 3
+						}
 					}
 				},
 				"SMBLL": {
