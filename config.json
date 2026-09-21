@@ -1,7 +1,8 @@
 {
 	"options": {
 		"Title Stars": "On",
-		"Level Foreground": "On"
+		"Level Foreground": "On",
+		"P-Switch Ticks": "On"
 	},
 	"value_keys": {
 		"Title Stars": [
@@ -11,10 +12,15 @@
 		"Level Foreground": [
 			"On",
 			"Off"
+		],
+		"P-Switch Ticks": [
+			"On",
+			"Off"
 		]
 	},
 	"option_descs": {
 		"Title Stars": "Whether the achievement stars appear on the title screen. Having them on may cause long load times.",
-		"Level Foreground": "Whether levels have foregrounds."
+		"Level Foreground": "Whether levels have foregrounds.",
+		"P-Switch Ticks": "Whether the P-Switch has the ticking sound effect in the song."
 	}
 }
