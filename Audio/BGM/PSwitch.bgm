@@ -1,0 +1,10 @@
+{
+	"Normal": {
+		"source": "PSwitch.mp3",
+		"loop": 9.443
+	},
+	"Hurry": {
+		"source": "PSwitch (hurry).mp3",
+		"loop": 6.616
+	}
+}

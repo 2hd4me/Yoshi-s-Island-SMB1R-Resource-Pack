@@ -1,1 +1,8 @@
-{"variations": {"source": "PSwitch.bgm"}}
+{
+	"variations": {
+		"config:P-Switch Ticks": {
+			"On": { "source": "PSwitch.bgm" },
+			"Off": { "source": "PSwitch (no ticking).bgm" },
+		}
+	}
+}
