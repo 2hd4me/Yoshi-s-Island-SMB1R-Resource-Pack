@@ -1,0 +1,20 @@
+{
+	"options": {
+		"Title Stars": "On",
+		"Level Foreground": "On"
+	},
+	"value_keys": {
+		"Title Stars": [
+			"On",
+			"Off"
+		],
+		"Level Foreground": [
+			"On",
+			"Off"
+		]
+	},
+	"option_descs": {
+		"Title Stars": "Whether the achievement stars appear on the title screen. Having them on may cause long load times.",
+		"Level Foreground": "Whether levels have foregrounds."
+	}
+}
