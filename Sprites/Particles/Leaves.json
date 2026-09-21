@@ -1,0 +1,9 @@
+{
+	"variations": {
+		"default": {"source": "Leaves.png"},
+		"Jungle": {
+			"Day": { "source": "JungleLeaves.png" },
+			"Night": { "source": "JungleNightLeaves.png" },
+		}
+	}
+}
