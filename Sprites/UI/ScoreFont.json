@@ -1,1 +1,8 @@
-{"variations": {"source": "ScoreFont.fnt"}}
+{
+	"variations": {
+		"config:Text Shadows": {
+			"On": {"source": "ScoreFontShadows.fnt"},
+			"Off": {"source": "ScoreFont.fnt"},
+		}
+	}
+}

@@ -1,8 +1,8 @@
 info face="Font.png" size=16 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
 common lineHeight=16 base=16 scaleW=256 scaleH=256 pages=1 packed=0 alphaChnl=0 redChnl=0 greenChnl=0 blueChnl=0
-page id=0 file="Font.png"
-page id=1 file="FontGA.png"
-page id=2 file="FontJP.png"
+page id=0 file="FontShadow.png"
+page id=1 file="FontGAShadow.png"
+page id=2 file="FontJPShadow.png"
 
 chars count=359
 char id=48   x=0    y=0     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
@@ -57,7 +57,7 @@ char id=40   x=0    y=48     width=16    height=16 xoffset=0     yoffset=0     x
 char id=41   x=16    y=48     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
 char id=63   x=32    y=48     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
 char id=95   x=48    y=48     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
-char id=8734   x=64    y=48     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
+char id=8734   x=64    y=48     width=17    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
 char id=59   x=80    y=48     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
 char id=9668   x=96    y=48     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0
 char id=9658   x=112    y=48     width=16    height=16 xoffset=0     yoffset=0     xadvance=16    page=0  chnl=0

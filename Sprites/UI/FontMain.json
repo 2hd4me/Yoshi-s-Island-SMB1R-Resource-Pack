@@ -1,7 +1,8 @@
 {
 	"variations": {
-		"SMB1": {"source": "Font.fnt"},
-		"SMBLL": {"source": "Font.fnt"},
-		"SMBANN": {"link": "SMBLL"}
+		"config:Text Shadows": {
+			"On": {"source": "FontShadows.fnt"},
+			"Off": {"source": "Font.fnt"},
+		}
 	}
 }
