@@ -1,6 +1,6 @@
 {
 	"variations": {
-		"config:Level Foreground": {
+		"config:Level FGs": {
 		"Off": {"source": "Default.png"},
 		"On": {
 		"default": {"source": "Default.png"},
