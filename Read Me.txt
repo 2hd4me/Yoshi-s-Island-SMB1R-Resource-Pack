@@ -12,7 +12,7 @@
 
 Hello hello, and welcome to hdtv's Yoshi's Island resource pack for SMB1R (that's me!).
 
-Currently this pack is very very messy and unfinished, so be please be aware that a lot is subject to change.
+Currently this pack is very very messy and unfinished, so be please be award that a lot is subject to change.
 
 This pack is not accepting contributions at this moment, thank you for understanding.
 
@@ -20,4 +20,7 @@ Some specific things I want to bring to your attention:
 
 	- The audio balancing on sound effects sucks right now, that will be fixed in the future.
 	- Yoshi replaces Mario for the time being. In the future Mario will be Mario, and Yoshi will be a bonus custom character.
-	- A few things don't work correct yet because of SMB1R bugs/limitations. I *hope* those will be fixed, but I can't promise it.
+	- A few things don't work correctly yet because of SMB1R bugs/limitations. I *hope* those will be fixed, but I can't promise it.
+	  Some of these bugs are:
+		- Sidesteppers face the wrong way during gameplay.
+		- On/Off Switches On state animation is messed up due to "loop_offset" not working on it yet.
