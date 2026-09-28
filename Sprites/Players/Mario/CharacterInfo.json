@@ -1,0 +1,46 @@
+{
+	"name": "CHAR_MARIO",
+	"physics": {
+		"PHYSICS_PARAMETERS": {
+			"Default": {
+				"CAN_AIR_TURN": true,
+				"COLLISION_SIZE": [8, 24],
+				"CROUCH_COLLISION_SIZE": [8, 12],
+			},
+			"Small": {
+				"COLLISION_SIZE": [8, 14],
+				"CROUCH_COLLISION_SIZE": [8, 8],
+			},
+			"Big": {},
+			"Fire": {}
+		},
+		"CLASSIC_PARAMETERS": {
+			"Default": {},
+			"Small": {},
+			"Big": {},
+			"Fire": {}
+		},
+		"ENDING_PARAMETERS": {
+			"Default": {
+				"DOOR_POSE_OFFSET": 28,
+				"FLAG_JUMP_SPEED": 200,
+				"FLAG_JUMP_INCR": 0,
+				"FLAG_INITIAL_X_VELOCITY": 32,
+				"FLAG_SPEED_MULT": 0.5,
+				"FLAG_SKIP_GRAB": false,
+			},
+			"Small": {},
+			"Big": {},
+			"Fire": {}
+		},
+		"DEATH_PARAMETERS": {
+			"Default": {}
+		},
+		"COSMETIC_PARAMETERS": {
+			"Default": {},
+			"Small": {},
+			"Big": {},
+			"Fire": {}
+		}
+	}
+}
