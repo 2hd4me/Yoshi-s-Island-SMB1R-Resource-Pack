@@ -3,7 +3,8 @@
 		"Text Shadows": "On",
 		"Title Stars": "On",
 		"Level FGs": "On",
-		"P-Switch Ticks": "On"
+		"P-Switch Ticks": "On",
+		"Spike Skin": "Spike"
 	},
 	"value_keys": {
 		"Text Shadows": [
@@ -21,12 +22,22 @@
 		"P-Switch Ticks": [
 			"On",
 			"Off"
+		],
+		"Spike Skin": [
+			"Spike",
+			"Mace Penguin",
+			"Theme Based"
 		]
 	},
 	"option_descs": {
 		"Text Shadows": "Whether text have shadows. Is a resouce pack option due to the base option messing up the HUD.",
 		"Title Stars": "Whether the achievement stars appear on the title screen. Having them on may cause long load times.",
 		"Level FGs": "Whether levels have foregrounds.",
-		"P-Switch Ticks": "Whether the P-Switch has the ticking sound effect in the song."
+		"P-Switch Ticks": "Whether the P-Switch has the ticking sound effect in the song.",
+		"Spike Skin": [
+			"Makes Spike (the enemy) green, like they normally look (inaccurate to YI).",
+			"Makes Spike (the enemy) white, which is how they look in YI.",
+			"Makes Spike (the enemy) green in most themes, and white in the snow theme."
+		]
 	}
 }
