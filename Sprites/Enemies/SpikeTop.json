@@ -1,0 +1,22 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 24, 24],
+				[24, 0, 24, 24],
+				[48, 0, 24, 24],
+				[72, 0, 24, 24],
+			],
+			"speed": 8,
+			"loop": true
+		},
+		"Death": {
+			"frames": [
+				[96, 0, 24, 24],
+			],
+			"speed": 8,
+			"loop": true
+		},
+	},
+	"variations": {"source": "SpikeTop.png"}
+}
