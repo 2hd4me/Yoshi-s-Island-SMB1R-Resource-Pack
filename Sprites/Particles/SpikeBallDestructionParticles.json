@@ -1,0 +1,56 @@
+{
+	"variations": {
+		"config:Spike Skin": {
+			"Spike": { 
+				"sequence": [
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+				]
+			},
+			"Mace Penguin": {
+				"sequence": [
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+					{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+				]
+			},
+			"Theme Based": {
+				"default": { 
+					"sequence": [
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 8, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 8, 8, 8] },
+					]
+				},
+				"Snow": { 
+					"sequence": [
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [0, 0, 8, 8] },
+						{ "source": "SpikeBallDestructionParticles.png", "rect": [8, 0, 8, 8] },
+					]
+				},
+			},
+		}
+	}
+}
