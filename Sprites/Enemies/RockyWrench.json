@@ -1,0 +1,36 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 24, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Aim": {
+			"frames": [[24, 0, 24, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Throw": {
+			"frames": [
+				[48, 0, 24, 32],
+				[72, 0, 24, 32],
+				[0, 0, 24, 32]
+			],
+			"speed": 5,
+			"loop": false
+		},
+		"Dead": {
+			"frames": [
+				[96, 0, 24, 32],
+				[120, 0, 24, 32]
+			],
+			"speed": 20,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "RockyWrench.png",
+		},
+	}
+}
