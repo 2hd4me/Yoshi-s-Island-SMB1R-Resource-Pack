@@ -3,16 +3,50 @@
 		"default": {
 			"frames": [
 				[0, 0, 16, 16],
+				[0, 0, 16, 16],
 				[16, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 32, 16],
 				[32, 0, 32, 16]
 			],
-			"speed": 10,
+			"speed": 20,
 			"loop": true
 		}
 	},
 	"variations": {
-		"default": {
-			"source": "Muncher.png",
-		}
+		"sequence": [
+			{ "source": "Muncher.png", 
+			"animations": {
+				"default": {
+					"frames": [
+						[0, 0, 16, 16],
+						[0, 0, 16, 16],
+						[16, 0, 16, 16],
+						[16, 0, 16, 16],
+						[32, 0, 32, 16],
+						[32, 0, 32, 16]
+					],
+					"speed": 20,
+					"loop": true
+				}
+			}
+			},
+			{ "source": "Muncher.png", 
+			"animations": {
+				"default": {
+					"frames": [
+						[16, 0, 16, 16],
+						[32, 0, 32, 16],
+						[32, 0, 32, 16],
+						[0, 0, 16, 16],
+						[0, 0, 16, 16],
+						[16, 0, 16, 16]
+					],
+					"speed": 20,
+					"loop": true
+				}
+			}
+			},
+		]
 	}
 }
