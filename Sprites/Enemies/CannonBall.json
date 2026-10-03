@@ -1,0 +1,17 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[16, 0, 16, 16],
+				[0, 0, 16, 16],
+			],
+			"speed": 5.0,
+			"loop": false
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "CannonBall.png",
+		},
+	}
+}
