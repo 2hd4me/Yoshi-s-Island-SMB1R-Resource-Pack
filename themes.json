@@ -492,10 +492,18 @@
 							"secondary_bg": 1
 						},
 						"Level3": {
-							"theme": "Underground", 
-							"time": "Day", 
-							"music": "Underground", 
-							"particles": 1
+							"default": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground", 
+								"particles": 1
+							},
+							"Underwater": {
+								"theme": "Underwater", 
+								"time": "Day", 
+								"music": "Underwater",
+								"particles": 0
+							}
 						}
 					}
 				},
