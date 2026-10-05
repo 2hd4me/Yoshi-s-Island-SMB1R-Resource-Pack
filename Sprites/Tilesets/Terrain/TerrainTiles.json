@@ -41,7 +41,8 @@
 			"SMB1": {"source": "Space.png"},
 		},
 		"Underwater": {
-			"SMB1": {"source": "Underwater.png"},
+			"Day": {"source": "Underwater.png"},
+			"Night": {"source": "UnderwaterNight.png"},
 		},
 		"Volcano": {
 			"SMB1": {"source": "Volcano.png"},
