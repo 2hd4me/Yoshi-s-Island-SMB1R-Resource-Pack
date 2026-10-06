@@ -5,7 +5,8 @@
 			"Night": {"source": "OverworldNight.png"},
 		},
 		"Underground": {
-			"SMB1": {"source": "Underground.png"},
+			"Day": {"source": "Underground.png"},
+			"Night": {"source": "UndergroundNight.png"},
 		},
 		"Desert": {
 			"Day": {"source": "Desert.png"},
@@ -51,10 +52,12 @@
 			"SMB1": {"source": "GhostHouse.png"},
 		},
 		"Castle": {
-			"SMB1": {"source": "Castle.png"},
+			"Day": {"source": "Castle.png"},
+			"Night": {"source": "CastleNight.png"},
 		},
 		"CastleWater": {
-			"SMB1": {"source": "CastleWater.png"},
+			"Day": {"source": "CastleWater.png"},
+			"Night": {"source": "CastleWaterNight.png"},
 		},
 		"Airship": {
 			"SMB1": {"source": "Airship.png"},
