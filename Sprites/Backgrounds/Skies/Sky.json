@@ -9,7 +9,10 @@
 			"Day": { "source": "Overworld.png" },
 			"Night": { "source": "SnowNight.png" },
 		},
-		"Underground": { "source": "Underground.png" },
+		"Underground": { 
+			"Day": { "source": "Underground.png" },
+			"Night": { "source": "UndergroundNight.png" },
+		},
 		"Desert": { 
 			"Day": { "source": "Desert.png" },
 			"Night": { "source": "DesertNight.png" },
