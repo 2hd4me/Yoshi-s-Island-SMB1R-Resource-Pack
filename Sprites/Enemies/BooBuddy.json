@@ -1,0 +1,45 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16],
+				[48, 0, 16, 16],
+			],
+			"speed": 8,
+			"loop": true
+		}
+	},
+	"variations": {
+		"choices": [
+			{ "source": "BooBuddy.png", "rect": [0, 0, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 0, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 0, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 0, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 0, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 0, 64, 16] },
+
+			{ "source": "BooBuddy.png", "rect": [0, 16, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 16, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 16, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 16, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 16, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 16, 64, 16] },
+
+			{ "source": "BooBuddy.png", "rect": [0, 32, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 32, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 32, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 32, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 32, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 32, 64, 16] },
+
+			{ "source": "BooBuddy.png", "rect": [0, 48, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 48, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 48, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 48, 64, 16] },
+
+			{ "source": "BooBuddy.png", "rect": [0, 64, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 64, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 64, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 64, 64, 16] },
+
+			{ "source": "BooBuddy.png", "rect": [0, 80, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 80, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 80, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 80, 64, 16] },
+
+			{ "source": "BooBuddy.png", "rect": [0, 96, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 96, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 112, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 112, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 128, 64, 16] }, { "source": "BooBuddy.png", "rect": [0, 128, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 144, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 160, 64, 16] },
+			{ "source": "BooBuddy.png", "rect": [0, 176, 64, 16] },
+		]
+	}
+}
