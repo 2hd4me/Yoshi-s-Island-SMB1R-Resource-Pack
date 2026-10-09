@@ -10,6 +10,26 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
+		"Underground": {
+			"Day": {
+				"source": "Underground.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Underground.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Castle": {
+			"Day": {
+				"source": "Castle.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Castle.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
 		"Desert": {
 			"Day": {
 				"source": "Desert.png",
@@ -17,6 +37,16 @@
 			},
 			"Night": {
 				"source": "Desert.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Underwater": {
+			"Day": {
+				"source": "Underwater.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Underwater.png",
 				"rect": [0, 32, 80, 32]
 			}
 		},
@@ -37,6 +67,16 @@
 			},
 			"Night": {
 				"source": "Jungle.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"CastleWater": {
+			"Day": {
+				"source": "CastleWater.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "CastleWater.png",
 				"rect": [0, 32, 80, 32]
 			}
 		},
