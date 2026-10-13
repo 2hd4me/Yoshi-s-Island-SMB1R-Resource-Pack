@@ -1,0 +1,35 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[24, 0, 24, 24],
+				[0, 0, 24, 24],
+				[0, 0, 24, 24],
+				[24, 0, 24, 24]
+			],
+			"speed": 8,
+			"loop": true
+		},
+		"Fly": {
+			"frames": [
+				[48, 0, 24, 24],
+				[72, 0, 24, 24],
+				[96, 0, 24, 24],
+				[120, 0, 24, 24],
+				[144, 0, 24, 24]
+			],
+			"speed": 20,
+			"loop": true,
+			"loop_offset": 3
+		},
+		"Death": {
+			"frames": [
+				[168, 0, 24, 24],
+
+			],
+			"speed": 8,
+			"loop": true
+		}
+	},
+	"variations": { "source": "FighterFly.png" }
+}
