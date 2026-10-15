@@ -1,0 +1,29 @@
+{
+	"animations": {
+		"Rest": {
+			"frames": [[32, 0, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Off": {
+			"frames": [
+				[64, 0, 32, 32],
+				[96, 0, 32, 32],
+			],
+			"speed": 15,
+			"loop": false
+		},
+		"On": {
+			"frames": [
+				[0, 0, 32, 32],
+				[32, 0, 32, 32],
+			],
+			"speed": 15,
+			"loop": false
+		}
+	},
+	"variations": {
+		"source": "SwitchSpike.png",
+		"rect": [0, 32, 128, 32]
+	}
+}

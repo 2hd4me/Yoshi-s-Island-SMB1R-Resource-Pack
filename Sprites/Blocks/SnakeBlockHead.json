@@ -1,0 +1,48 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 16, 16]],
+			"speed": 5,
+			"loop": true
+		},
+		"Moving": {
+			"frames": [
+				[16, 0, 16, 16],
+				[0, 0, 16, 16],
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"Stopped": {
+			"frames": [[32, 0, 16, 16]],
+			"speed": 5,
+			"loop": false
+		},
+		"IdleRed": {
+			"frames": [[48, 0, 16, 16]],
+			"speed": 5,
+			"loop": true
+		},
+		"MovingRed": {
+			"frames": [
+				[64, 0, 16, 16],
+				[48, 0, 16, 16],
+			],
+			"speed": 8,
+			"loop": true
+		},
+		"StoppedRed": {
+			"frames": [
+				[80, 0, 16, 16], [96, 0, 16, 16],
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {
+		"sequence": [
+			{"source": "SnakeBlock.png", "rect": [0, 0, 128, 16] },
+			{"source": "SnakeBlock.png", "rect": [0, 16, 128, 16] },
+		]
+	}
+}
