@@ -1,0 +1,59 @@
+{
+	"animations": {
+		"Off3": {
+			"frames": [[160, 32, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Off2": {
+			"frames": [[192, 32, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Off1": {
+			"frames": [[224, 32, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"BlueToRed": {
+			"frames": [
+				[0, 0, 32, 32],
+				[32, 0, 32, 32],
+				[64, 0, 32, 32],
+				[96, 0, 32, 32],
+				[128, 0, 32, 32],
+				[160, 0, 32, 32],
+			],
+			"speed": 32,
+			"loop": false
+		},
+		"On3": {
+			"frames": [[160, 0, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"On2": {
+			"frames": [[192, 0, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"On1": {
+			"frames": [[224, 0, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"RedToBlue": {
+			"frames": [
+				[0, 32, 32, 32],
+				[32, 32, 32, 32],
+				[64, 32, 32, 32],
+				[96, 32, 32, 32],
+				[128, 32, 32, 32],
+				[160, 32, 32, 32],
+			],
+			"speed": 32,
+			"loop": false
+		}
+	},
+	"variations": {"source": "TimedBooBlock.png"}
+}
