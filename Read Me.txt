@@ -22,3 +22,6 @@ Some specific things I want to bring to your attention:
 	  Some of these bugs are:
 		- Sidesteppers face the wrong way during gameplay.
 		- On/Off Switches On state animation is messed up due to "loop_offset" not working on it yet.
+
+No AI was used in the making of this resource pack. 
+Can't believe I got to say this, but please don't run any of my stuff through AI.
