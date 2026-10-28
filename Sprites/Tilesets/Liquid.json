@@ -1,6 +1,13 @@
 {
 	"variations": {
-		"Day": { "source": "Liquid.png" },
-		"Night": {"source": "LiquidNight.png"}
+		"GameMode:Default": {
+			"Day": { "source": "Liquid.png" },
+			"Night": {"source": "LiquidNight.png"}
+		},
+		"GameMode:Campaign": {
+			"Day": { "source": "LiquidCampaign.png" },
+			"Night": {"source": "LiquidNightCampaign.png"}
+		},
+			"GameMode:BooRace": { "link": "GameMode:Campaign" },
 	}
 }
