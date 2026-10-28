@@ -5,8 +5,56 @@
 			"Day": { "source": "Overworld.png" },
 			"Night": { "source": "OverworldNight.png" },
 		},
+		"Underground": { 
+			"Day": { 			
+				"source": "Underground.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[2560, 0, 512, 512],
+							[3072, 0, 512, 512],
+							[3584, 0, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
+				},
+			},
+			"Night": { 			
+				"source": "UndergroundNight.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[2560, 0, 512, 512],
+							[3072, 0, 512, 512],
+							[3584, 0, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
+				},
+			},
+		},
+		"Castle": {
+			"Day": { "source": "Castle.png" },
+			"Night": { "source": "CastleNight.png" },
+		},
+		"Skyland": {
+			"Day": { "source": "Castle.png" },
+			"Night": { "source": "OverworldNight.png" },
+		},
 		"Desert": { 
-			"Day": { "source": "Bush.png" },
+			"Day": { "source": "Desert.png" },
 			"Night": { 			
 				"source": "DesertNight.png",
 				"animations": {
@@ -23,10 +71,51 @@
 				},
 			},
 		},
+		"Underwater": {
+			"Day": {
+				"source": "Underwater.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512]
+						],
+						"speed": 5,
+						"loop": true
+					}
+				}
+			},
+			"Night": {
+				"source": "UnderwaterNight.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512]
+						],
+						"speed": 5,
+						"loop": true
+					}
+				}
+			},
+		},
 		"Snow": {
 			"Day": { "source": "Snow.png" },
 			"Night": { "source": "SnowNight.png" },
 		},
-		"Jungle": {"source": "Jungle.png"},
+		"CastleWater": {
+			"Day": { "source": "CastleWater.png" },
+			"Night": { "source": "CastleWaterNight.png" },
+		},
+		"Jungle": {
+			"Day": { "source": "Jungle.png" },
+			"Night": { "source": "JungleNight.png" },
+		},
 	}
 }
