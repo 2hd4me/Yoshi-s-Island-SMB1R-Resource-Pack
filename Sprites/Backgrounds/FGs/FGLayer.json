@@ -3,7 +3,7 @@
 		"config:Level FGs": {
 		"Off": {"source": "Default.png"},
 		"On": {
-		"default": {"source": "Default.png"},
+		"default": { "source": "Default.png" },
 		"Overworld": {
 			"Day": { 
 			"source": "Overworld.png",
