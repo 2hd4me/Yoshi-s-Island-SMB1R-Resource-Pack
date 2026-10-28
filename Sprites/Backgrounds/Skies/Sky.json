@@ -3,6 +3,13 @@
 		"sky_scroll_speed": 0,
 		"top_edge_enabled": false
 	},
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 512, 512]],
+			"speed": 5,
+			"loop": true
+		}
+	},
 	"variations": {
 		"default": { "source": "DaySky.png" },
 		"Overworld": { 
@@ -13,13 +20,49 @@
 			"Day": { "source": "Underground.png" },
 			"Night": { "source": "UndergroundNight.png" },
 		},
+		"Castle": { 
+			"Day": { "source": "Snow.png" },
+			"Night": { "source": "CastleNight.png" },
+		},
 		"Desert": { 
 			"Day": { "source": "Desert.png" },
 			"Night": { "source": "DesertNight.png" },
 		},
 		"Underwater": { 
-			"Day": { "source": "Desert.png" },
-			"Night": { "source": "SnowNight.png" },
+			"Day": {
+				"source": "Underwater.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512],
+						],
+						"speed": 5,
+						"loop": true
+					}
+				},
+			},
+			"Night": {
+				"source": "UnderwaterNight.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512],
+						],
+						"speed": 5,
+						"loop": true
+					}
+				},
+			},
 		},
 		"Snow": { 
 			"Day": { "source": "Snow.png" },
@@ -29,9 +72,7 @@
 			"Day": { "source": "Jungle.png" },
 			"Night": { "source": "SnowNight.png" },
 		},
-		"CastleWater": { 
-			"Day": { "source": "Overworld.png" },
-			"Night": { "source": "SnowNight.png" },
-		},
+		"CastleWater": { "link": "Underwater"},
+		"Skyland": { "link": "Snow"},
 	}
 }
