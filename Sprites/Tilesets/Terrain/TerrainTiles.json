@@ -30,7 +30,15 @@
 			"SMB1": {"source": "Mountain.png"},
 		},
 		"Skyland": {
-			"SMB1": {"source": "Sky.png"},
+			"GameMode:Default": {
+				"Day": {"source": "Sky.png"},
+				"Night": {"source": "SkyNight.png"},
+			},
+			"GameMode:Campaign": {
+				"Day": {"source": "SkyCampaign.png"},
+				"Night": {"source": "SkyNightCampaign.png"},
+			},
+			"GameMode:BooRace": { "link": "GameMode:Campaign" },
 		},
 		"Autumn": {
 			"SMB1": {"source": "Autumn.png"},
