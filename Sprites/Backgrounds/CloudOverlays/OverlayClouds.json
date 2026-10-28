@@ -1,7 +1,22 @@
 {
 	"variations": {
-		"default": {"source": "CloudOverlay.png"},
-		"Desert": {"source": "Jungle.png"},		
-		"Jungle": {"source": "Jungle.png"},	
+		"default": { "source": "CloudOverlay.png", "blend": "add" },
+		"Desert": { "source": "Jungle.png", "blend": "add" },		
+		"Jungle": { "link": "Desert" },	
+		"Castle": { "link": "Desert" },	
+		"Volcano": { "link": "Desert" },
+		"Underground": {			
+			"Day": { "source": "CloudOverlay.png", "blend": "add" },
+			"Night": { "source": "Jungle.png", "blend": "add" },	
+		},	
+		"Underwater": {			
+			"Day": { "source": "Underwater.png", "blend": "add",
+				"properties": { "cloud_scroll": [ 0, 0 ] }
+			},
+			"Night": { "source": "UnderwaterNight.png", "blend": "add",
+				"properties": { "cloud_scroll": [ 0, 0 ] }
+			},
+		},
+		"CastleWater": { "link": "Underwater"},
 	}
 }
