@@ -18,6 +18,8 @@ This pack is not accepting contributions at this moment, thank you for understan
 
 Some specific things I want to bring to your attention:
 
+	- When enabling this pack, PLEASE double check to make sure that all other packs are disabled unless you know what you're doing.
+	It will break things if there are more than one pack enabled, especially if they have SFX files.
 	- A few things don't work correctly yet because of SMB1R bugs/limitations. I *hope* those will be fixed, but I can't promise it.
 	  Some of these bugs are:
 		- Sidesteppers face the wrong way during gameplay.
