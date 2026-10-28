@@ -80,5 +80,15 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
+		"Skyland": {
+			"Day": {
+				"source": "Sky.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Sky.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
 	}
 }
