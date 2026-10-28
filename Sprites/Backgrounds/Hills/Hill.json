@@ -46,8 +46,9 @@
 			},
 		},
 		"Castle": {
-			"Day": {
-				"source": "Castle.png",
+			"Day" : { "source": "Castle.png" },
+			"Night": {
+				"source": "CastleNight.png",
 				"animations": {
 					"default": {
 						"frames": [
@@ -61,7 +62,6 @@
 					}
 				},
 			},
-			"Night" : { "source": "CastleNight.png" }
 		},
 		"Desert": {
 			"Day": {"source": "Desert.png"},
@@ -116,9 +116,10 @@
 			},
 
 		},
-		"CastleWater": {
-			"Day": {"source": "CastleWater.png"},
-			"Night": {"source": "CastleWaterNight.png"},
+		"CastleWater": { "link": "Underwater"},
+		"Skyland": {
+			"Day": {"source": "Sky.png"},
+			"Night": {"source": "SkyNight.png"},
 		},
 	}
 }
