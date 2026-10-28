@@ -1,0 +1,30 @@
+{
+	"variations": {
+		"default": { 
+			"Day": { "source": "Wind.png", "rect": [0, 0, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 16, 32, 16] },
+		},
+		"Overworld": { 
+			"Day": { "source": "Wind.png", "rect": [0, 32, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 48, 32, 16] },
+		},
+		"Desert": { 
+			"Day": { "source": "Wind.png", "rect": [0, 64, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 80, 32, 16] },
+		},
+		"Snow": { 
+			"Day": { "source": "Wind.png", "rect": [0, 96, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 112, 32, 16] },
+		},
+		"Skyland": { "link": "Snow" },
+		"Underwater": { 
+			"Day": { "source": "Wind.png", "rect": [0, 128, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 144, 32, 16] },
+		},
+		"CastleWater": { "link": "Underwater" },
+		"Castle": { 
+			"Day": { "source": "Wind.png", "rect": [0, 160, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 176, 32, 16] },
+		},
+	}
+}
