@@ -300,5 +300,6 @@
 			"World13": { "link": "World8" },
 			"World-1": { "source": "ToadNPC.png", "rect": [224, 0, 224, 192] },
 		},
+		"GameMode:Disco": { "link": "GameMode:Campaign" },
 	}
 }
