@@ -624,6 +624,47 @@
 		},
 		"Grow": { "link": "SmallGrow" },
 		"SuperballGrow": { "link": "FireGrow" },
+
+		"LevelTransition": {
+			"frames": [
+				[288, 912, 32, 48],
+			],
+			"speed": 4,
+			"loop": true
+		},
+
+		"PoseToad": {
+			"frames": [
+				[144, 384, 32, 48], [144, 384, 32, 48], [176, 384, 32, 48], [176, 384, 32, 48],
+				[144, 384, 32, 48], [144, 384, 32, 48], [176, 384, 32, 48], [176, 384, 32, 48],
+				[144, 384, 32, 48], [144, 384, 32, 48], [176, 384, 32, 48], [176, 384, 32, 48],
+				[208, 384, 36, 48],
+				[208, 384, 40, 48],
+				[208, 384, 44, 48],
+				[208, 384, 47, 48],
+				[208, 384, 49, 48],
+				[208, 384, 50, 48],
+				[208, 384, 51, 48],
+				[208, 384, 52, 48], [208, 384, 52, 48], [208, 384, 52, 48], [208, 384, 52, 48],
+				[256, 384, 52, 48],
+			],
+			"speed": 4,
+			"loop": false
+		},
 	},
-	"variations": {"source": "Big.png"}
+	"variations": {
+		"GameMode:Campaign": { "source": "Big.png" },
+		"GameMode:Disco": { "link": "GameMode:Campaign" },
+		"GameMode:Default": {
+			"source": "Big.png",
+			"animation_overrides": {
+				"PoseToad": {
+					"frames": [[32, 912, 32, 48]],
+					"speed": 16,
+					"loop": false
+				}
+			}
+		},
+	}
 }
+

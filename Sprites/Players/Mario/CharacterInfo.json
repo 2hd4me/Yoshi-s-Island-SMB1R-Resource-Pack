@@ -28,6 +28,7 @@
 				"FLAG_INITIAL_X_VELOCITY": 32,
 				"FLAG_SPEED_MULT": 0.5,
 				"FLAG_SKIP_GRAB": false,
+				"TOAD_POSE_OFFSET": 8,
 			},
 			"Small": {},
 			"Big": {},
