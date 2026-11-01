@@ -1,0 +1,11 @@
+{
+	"variations": {
+		"SMB1" : {
+			"config:Text Background": {
+				"On" : { "source": "LifeIcon.png", "rect" : [0, 0, 8, 10,] },
+				"Off" : { "source": "LifeIcon.png", "rect" : [8, 0, 8, 10,] },
+			},
+		},
+		"SMBANN" : { "source": "LifeIcon.png", "rect" : [8, 0, 8, 10,] },
+	}
+}
