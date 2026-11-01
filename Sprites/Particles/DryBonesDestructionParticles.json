@@ -1,0 +1,14 @@
+{
+	"variations": {
+		"sequence": [
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 0, 48, 16] },
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 0, 48, 16] },
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 16, 48, 16] },
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 16, 48, 16] },
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 16, 48, 16] },
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 16, 48, 16] },
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 0, 48, 16] },
+			{ "source": "DryBonesDestructionParticles.png", "rect": [0, 0, 48, 16] },
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"variations": {
+		"sequence": [
+			{ "source": "CrateDestructionParticles.png","rect": [0, 0, 16, 16] },
+			{ "source": "CrateDestructionParticles.png","rect": [16, 0, 16, 16] },
+			{ "source": "CrateDestructionParticles.png","rect": [32, 0, 16, 16] }
+		]
+	}
+}
