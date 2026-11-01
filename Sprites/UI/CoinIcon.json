@@ -2,15 +2,29 @@
 	"animations": {
 		"default": {
 			"frames": [
-				[0, 0, 10, 9],
+				[0, 0, 10, 10],
 			],
 			"speed": 10,
 			"loop": true
 		}
 	},
 	"variations": {
-		"default": {
-			"source": "CoinIcon.png",
-		}
+		"SMB1" : {
+			"config:Text Background": {
+				"On" : { "source": "CoinIcon.png", "rect" : [0, 0, 10, 10,] },
+				"Off" : {
+					"config:Text Shadows": {
+						"On": { "source": "CoinIcon.png", "rect" : [20, 0, 10, 10,] },
+						"Off": { "source": "CoinIcon.png", "rect" : [10, 0, 10, 10,] },
+					}
+				}
+			}
+		},
+		"SMBANN" : {
+			"config:Text Shadows": {
+				"On": { "source": "CoinIcon.png", "rect" : [20, 0, 10, 10,] },
+				"Off": { "source": "CoinIcon.png", "rect" : [10, 0, 10, 10,] },
+			}
+		},
 	}
 }
