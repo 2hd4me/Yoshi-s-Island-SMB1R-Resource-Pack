@@ -1,8 +1,16 @@
 {
 	"variations": {
-		"config:Text Shadows": {
-			"On": {"source": "FontShadows.fnt"},
-			"Off": {"source": "Font.fnt"},
-		}
+		"SMB1": {
+			"config:Text Shadows": {
+				"On": {"source": "FontShadows.fnt"},
+				"Off": {"source": "Font.fnt"},
+			}
+		},
+		"SMBANN": {
+			"config:Text Shadows": {
+				"On": {"source": "FontShadowsANN.fnt"},
+				"Off": {"source": "FontANN.fnt"},
+			}
+		}	
 	}
 }
