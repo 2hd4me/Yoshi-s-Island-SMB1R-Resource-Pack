@@ -125,5 +125,17 @@
 			"Day": {"source": "Space.png"},
 			"Night": {"source": "SpaceNight.png"},
 		},
+		"Autumn": {
+			"Day": {"source": "Autumn.png"},
+			"Night": {"source": "AutumnNight.png"},
+		},
+		"Volcano": {
+			"Day": {"source": "Volcano.png"},
+			"Night": {"source": "VolcanoNight.png"},
+		},
+		"Pipeland": {
+			"Day": {"source": "Pipeland.png"},
+			"Night": {"source": "PipelandNight.png"},
+		},
 	}
 }
