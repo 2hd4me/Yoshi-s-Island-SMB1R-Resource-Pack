@@ -100,5 +100,35 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
+		"Volcano": {
+			"Day": {
+				"source": "Volcano.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Volcano.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Autumn": {
+			"Day": {
+				"source": "Autumn.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Autumn.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Pipeland": {
+			"Day": {
+				"source": "Pipeland.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Pipeland.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
 	}
 }
