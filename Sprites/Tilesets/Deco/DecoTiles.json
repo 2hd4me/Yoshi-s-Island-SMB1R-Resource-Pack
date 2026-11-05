@@ -90,5 +90,15 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
+		"Space": {
+			"Day": {
+				"source": "Space.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Space.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
 	}
 }
