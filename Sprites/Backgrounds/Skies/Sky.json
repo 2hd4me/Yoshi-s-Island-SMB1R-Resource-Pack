@@ -76,6 +76,18 @@
 		"Skyland": { "link": "Snow"},
 		"Space": { 
 			"Day": { "source": "Space.png" },
+			"Night": { "source": "SpaceNight.png" },
+		},
+		"Autumn": { 
+			"Day": { "source": "Jungle.png" },
+			"Night": { "source": "CastleNight.png" },
+		},
+		"Volcano": { 
+			"Day": { "source": "DesertNight.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
+		"Pipeland": { 
+			"Day": { "source": "Pipeland.png" },
 			"Night": { "source": "SnowNight.png" },
 		},
 	}
