@@ -21,10 +21,10 @@
 				"World7": {"theme": "Jungle", "time": "Night", "primary_bg": 0, "secondary_bg": 2, "particles": 2, },
 				"World8": {"theme": "Overworld", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
 				"World9": {"theme": "Space", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
-				"World10": {"theme": "Autumn", "time": "Day"},
-				"World11": {"theme": "Pipeland", "time": "Day"},
-				"World12": {"theme": "Skyland", "time": "Day"},
-				"World13": {"theme": "Volcano", "time": "Day"}
+				"World10": {"theme": "Autumn", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
+				"World11": {"theme": "Pipeland", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
+				"World12": {"theme": "Skyland", "time": "Day", "primary_bg": 0, "secondary_bg": 2, "overlay_clouds": 1 },
+				"World13": {"theme": "Volcano", "time": "Day", "primary_bg": 0, "secondary_bg": 2, "particles": 3, "overlay_clouds": 1 },
 			},
 			"SMBS": {
 				"World1": {"theme": "Overworld", "time": "Day"},
@@ -1143,59 +1143,266 @@
 					},
 					"World10": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Autumn", "time": "Day", "music": "Autumn", "particles": 2},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Autumn", "time": "Day"}
+							"RoomType:Default": {
+								"theme": "Autumn", 
+								"time": "Day", 
+								"music": "Autumn", 
+								"particles": 2,
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus",
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
+							"RoomType:CoinHeaven": {
+								"theme": "Autumn", 
+								"time": "Day",
+								"secondary_bg": 1
+							}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Underground", "time": "Day", "music": "Underground"},
-							"RoomType:PipeCutscene": {"theme": "Autumn", "time": "Day", "music": "Autumn", "particles": 2},
+							"RoomType:Default": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground",
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
+							"RoomType:PipeCutscene": {
+								"theme": "Autumn", 
+								"time": "Day", 
+								"music": "Autumn", 
+								"particles": 2,
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
 							"RoomType:SublevelExit": {"link": "RoomType:PipeCutscene"}
 						},
-						"Level3": {"theme": "Autumn", "time": "Day", "music": "Autumn", "extra_bgm": "Athletic", "primary_bg": 1, "liquid": 1},
-						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
+						"Level3": {
+							"theme": "Autumn", 
+							"time": "Day", 
+							"music": "Autumn", 
+							"extra_bgm": "Athletic", 
+							"primary_bg": 1, 
+							"liquid": 1,
+							"primary_bg": 1,
+							"secondary_bg": 1
+						},
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"music": "Castle", 
+							"particles": 3,
+							"primary_bg": 0,
+							"secondary_bg": 2
+						}
 					},
 					"World11": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Pipeland", "time": "Day", "music": "Pipeland", "liquid": 1},
-							"RoomType:CoinHeaven": {"theme": "Pipeland", "time": "Day"}
+							"RoomType:Default": {
+								"theme": "Pipeland", 
+								"time": "Day", 
+								"music": "Pipeland", 
+								"liquid": 1,
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
+							"RoomType:CoinHeaven": {
+								"theme": "Pipeland", 
+								"time": "Day",
+								"secondary_bg": 2
+								}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Underwater", "time": "Day", "music": "Underwater"},
-							"RoomType:PipeCutscene": {"theme": "Pipeland", "time": "Day", "music": "Pipeland", "liquid": 1},
+							"RoomType:Default": {
+								"theme": "CastleWater", 
+								"time": "Night", 
+								"music": "Underwater",
+								"primary_bg": 2,
+								"secondary_bg": 1
+							},
+							"RoomType:PipeCutscene": {
+								"theme": "Pipeland", 
+								"time": "Day", 
+								"music": "Pipeland", 
+								"liquid": 1,
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
 							"RoomType:SublevelExit": {"link": "RoomType:PipeCutscene"}
 						},
-						"Level3": {"theme": "Pipeland", "time": "Day", "music": "Pipeland", "extra_bgm": "Athletic"},
+						"Level3": {
+							"theme": "Pipeland", 
+							"time": "Day", 
+							"music": "Pipeland", 
+							"extra_bgm": "Athletic",
+							"primary_bg": 0,
+							"secondary_bg": 2
+						},
 						"Level4": {
-							"default": {"theme": "Pipeland", "time": "Day", "music": "Pipeland"},
-							"Castle": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
+							"default": {
+								"theme": "Pipeland", 
+								"time": "Day", 
+								"music": "Underground",
+								"primary_bg": 2,
+								"secondary_bg": 1
+							},
+							"Castle": {
+								"theme": "CastleWater", 
+								"time": "Day", 
+								"music": "Castle", 
+								"particles": 0,
+								"primary_bg": 1,
+								"secondary_bg": 1
+							}
 						}
 					},
 					"World12": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Skyland", "time": "Day", "music": "Sky"},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Skyland", "time": "Day"}
+							"RoomType:Default": {
+								"theme": "Skyland", 
+								"time": "Day", 
+								"music": "Sky",
+								"primary_bg": 0,
+								"secondary_bg": 2
+							},
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Day", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus",
+								"primary_bg": 1,
+								"secondary_bg": 0
+							},
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland", 
+								"time": "Night",
+								"primary_bg": 2,
+								"secondary_bg": 2
+							}
 						},
-						"Level2": {"theme": "Skyland", "time": "Day", "music": "Sky", "secondary_bg": 2},
-						"Level3": {"theme": "Skyland", "time": "Day", "music": "Sky", "extra_bgm": "Athletic"},
-						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
+						"Level2": {
+							"theme": "Skyland", 
+							"time": "Day", 
+							"music": "Sky",
+							"primary_bg": 0,
+							"secondary_bg": 2
+						},
+						"Level3": {
+							"theme": "Skyland", 
+							"time": "Day", 
+							"music": "Sky", 
+							"extra_bgm": "Athletic",
+							"primary_bg": 0,
+							"secondary_bg": 1
+						},
+						"Level4": {
+							"theme": "Castle", 
+							"time": "Day", 
+							"music": "Castle", 
+							"particles": 3,
+							"primary_bg": 0,
+							"secondary_bg": 1,
+							"overlay_clouds": 1,
+						}
 					},
 					"World13": {
 						"Level1": {
-							"RoomType:Default": {"theme": "Volcano", "time": "Day", "music": "Volcano", "particles": 3, "liquid": 2},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"}
+							"RoomType:Default": {
+								"theme": "Volcano", 
+								"time": "Day", 
+								"music": "Volcano", 
+								"particles": 3, 
+								"liquid": 2,
+								"primary_bg": 0,
+								"secondary_bg": 2,
+								"overlay_clouds": 1
+							},
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus",
+								"primary_bg": 1,
+								"secondary_bg": 0,
+								"overlay_clouds": 1,
+								"particles": 3
+							}
 						},
 						"Level2": {
-							"RoomType:Default": {"theme": "Volcano", "time": "Day", "music": "Volcano", "particles": 3},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Volcano", "time": "Day"}
+							"RoomType:Default": {
+								"theme": "Volcano", 
+								"time": "Day", 
+								"music": "Volcano", 
+								"particles": 3,
+								"primary_bg": 0,
+								"secondary_bg": 2,
+								"overlay_clouds": 1
+							},
+							"RoomType:BonusRoom": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus",
+								"primary_bg": 1,
+								"secondary_bg": 0,
+								"overlay_clouds": 1,
+								"particles": 3
+							},
+							"RoomType:CoinHeaven": {
+								"theme": "Volcano", 
+								"time": "Day",
+								"primary_bg": 1,
+								"secondary_bg": 1,
+								"overlay_clouds": 1,
+								"particles": 3
+							}
 						},
-						"Level3": {"theme": "Volcano", "time": "Day", "music": "Volcano", "particles": 3, "liquid": 2},
+						"Level3": {
+							"theme": "Volcano", 
+							"time": "Day", 
+							"music": "Volcano", 
+							"particles": 3, 
+							"liquid": 2,
+							"primary_bg": 0,
+							"secondary_bg": 2,
+							"overlay_clouds": 1
+						},
 						"Level4": {
-							"default": {"theme": "Volcano", "time": "Day", "music": "Volcano", "particles": 3, "liquid": 2},
-							"Castle": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3},
-							"Underground": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"}
+							"default": {
+								"theme": "Volcano", 
+								"time": "Day", 
+								"music": "Volcano", 
+								"particles": 3, 
+								"liquid": 2,
+								"primary_bg": 0,
+								"secondary_bg": 2,
+								"overlay_clouds": 1,
+							},
+							"Castle": {
+								"theme": "Castle", 
+								"time": "Night", 
+								"music": "Castle", 
+								"particles": 3,
+								"primary_bg": 1,
+								"secondary_bg": 1,
+								"overlay_clouds": 1
+							},
+							"Underground": {
+								"theme": "Underground", 
+								"time": "Night", 
+								"music": "Underground", 
+								"extra_bgm": "Bonus",
+								"primary_bg": 1,
+								"secondary_bg": 0,
+								"overlay_clouds": 1,
+								"particles": 3
+							}
 						}
 					}
 				},
