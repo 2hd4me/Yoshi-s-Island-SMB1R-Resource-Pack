@@ -42,7 +42,8 @@
 			"GameMode:Disco": { "link": "GameMode:Campaign" },
 		},
 		"Autumn": {
-			"SMB1": {"source": "Autumn.png"},
+			"Day": {"source": "Autumn.png"},
+			"Night": {"source": "AutumnNight.png"},
 		},
 		"Pipeland": {
 			"Day": {"source": "Pipeland.png"},
@@ -60,7 +61,8 @@
 			"SMB1": {"source": "Volcano.png"},
 		},
 		"GhostHouse": {
-			"SMB1": {"source": "GhostHouse.png"},
+			"Day": {"source": "GhostHouse.png"},
+			"Night": {"source": "GhostHouseNight.png"},
 		},
 		"Castle": {
 			"Day": {"source": "Castle.png"},
