@@ -12,7 +12,7 @@
 
 Hello hello, and welcome to hdtv's Yoshi's Island resource pack for SMB1R (that's me!).
 
-Currently this pack is very very messy and unfinished, so be please be award that a lot is subject to change.
+Currently this pack is unfinished, so be please be aware that stuff is subject to change.
 
 This pack is not accepting contributions at this moment, thank you for understanding.
 
@@ -24,6 +24,7 @@ Some specific things I want to bring to your attention:
 	  Some of these bugs are:
 		- Sidesteppers face the wrong way during gameplay.
 		- On/Off Switches On state animation is messed up due to "loop_offset" not working on it yet.
+		- The base of the flag pole is behind the block that's normally there. That will be changed when SMB1R updates.
 
 No AI was used in the making of this resource pack. 
 Can't believe I got to say this, but please don't run any of my stuff through AI.
