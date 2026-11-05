@@ -74,5 +74,9 @@
 		},
 		"CastleWater": { "link": "Underwater"},
 		"Skyland": { "link": "Snow"},
+		"Space": { 
+			"Day": { "source": "Space.png" },
+			"Night": { "source": "SnowNight.png" },
+		},
 	}
 }
