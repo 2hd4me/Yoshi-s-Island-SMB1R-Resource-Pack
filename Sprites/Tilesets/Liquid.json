@@ -1,13 +1,31 @@
 {
 	"variations": {
 		"GameMode:Default": {
-			"Day": { "source": "Liquid.png" },
-			"Night": {"source": "LiquidNight.png"}
+			"default": {
+				"Day": { "source": "Liquid.png" },
+				"Night": { "source": "LiquidNight.png" }
+			},
+			"Volcano": {
+				"Day": { "source": "Liquid.png" },
+				"Night": { "source": "LiquidVolcanoNight.png" }
+			},
 		},
 		"GameMode:Campaign": {
-			"Day": { "source": "LiquidCampaign.png" },
-			"Night": {"source": "LiquidNightCampaign.png"}
+			"default": {
+				"Day": { "source": "Liquid.png" },
+				"Night": { "source": "LiquidNight.png" }
+			},
+			"Volcano": {
+				"Day": { "source": "Liquid.png" },
+				"Night": { "source": "LiquidVolcanoNight.png" }
+			},
+			"Underwater": {
+				"Day": { "source": "LiquidCampaign.png" },
+				"Night": { "source": "LiquidNightCampaign.png" }
+			},
+			"CastleWater": { "link": "Underwater" },
 		},
-			"GameMode:BooRace": { "link": "GameMode:Campaign" },
+		"GameMode:BooRace": { "link": "GameMode:Campaign" },
+		"GameMode:Disco": { "link": "GameMode:Campaign" },
 	}
 }
