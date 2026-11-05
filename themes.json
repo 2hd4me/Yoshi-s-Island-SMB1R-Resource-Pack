@@ -20,7 +20,7 @@
 				"World6": {"theme": "Snow", "time": "Night", "primary_bg": 0, "secondary_bg": 2, "particles": 1, },
 				"World7": {"theme": "Jungle", "time": "Night", "primary_bg": 0, "secondary_bg": 2, "particles": 2, },
 				"World8": {"theme": "Overworld", "time": "Night", "primary_bg": 0, "secondary_bg": 2 },
-				"World9": {"theme": "Space", "time": "Night"},
+				"World9": {"theme": "Space", "time": "Day", "primary_bg": 0, "secondary_bg": 2 },
 				"World10": {"theme": "Autumn", "time": "Day"},
 				"World11": {"theme": "Pipeland", "time": "Day"},
 				"World12": {"theme": "Skyland", "time": "Day"},
@@ -1098,15 +1098,48 @@
 					},
 					"World9": {
 						"Level1": {
-							"default": {"theme": "Space", "time": "Night", "music": "Space"},
-							"Overworld": {"theme": "Overworld", "time": "Night", "music": "Overworld"}
+							"default": {
+								"theme": "Space", 
+								"time": "Day", 
+								"music": "Space",
+								"primary_bg": 0,
+								"secondary_bg": 0
+							},
+							"Overworld": {
+								"theme": "Overworld", 
+								"time": "Night", 
+								"music": "Overworld",
+								"primary_bg": 1,
+								"secondary_bg": 1
+							}
 						},
-						"Level2": {"theme": "Space", "time": "Night", "music": "Space"},
+						"Level2": {
+							"theme": "Space", 
+							"time": "Day", 
+							"music": "Space",
+							"primary_bg": 0,
+							"secondary_bg": 0
+						},
 						"Level3": {
-							"RoomType:Default": {"theme": "Space", "time": "Night", "music": "Space", "primary_bg": 1},
-							"RoomType:CoinHeaven": {"theme": "Space", "time": "Night"}
+							"RoomType:Default": {
+								"theme": "Space", 
+								"time": "Day", 
+								"music": "Space",
+								"primary_bg": 1,
+								"secondary_bg": 1
+							},
+							"RoomType:CoinHeaven": {
+								"theme": "Space", 
+								"time": "Night"
+							}
 						},
-						"Level4": {"theme": "Space", "time": "Night", "music": "Space"}
+						"Level4": {
+							"theme": "Space", 
+							"time": "Night", 
+							"music": "Space",
+							"primary_bg": 0,
+							"secondary_bg": 2
+						}
 					},
 					"World10": {
 						"Level1": {
