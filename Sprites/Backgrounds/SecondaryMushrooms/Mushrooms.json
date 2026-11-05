@@ -70,6 +70,10 @@
 		"Jungle": {
 			"Day": { "source": "Jungle.png" },
 			"Night": { "source": "JungleNight.png" },
+		},	
+		"Space": {
+			"Day": { "source": "Space.png" },
+			"Night": { "source": "SpaceNight.png" },
 		},		
 	}
 }
