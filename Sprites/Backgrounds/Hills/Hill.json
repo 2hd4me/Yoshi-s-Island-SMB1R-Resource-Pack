@@ -121,5 +121,9 @@
 			"Day": {"source": "Sky.png"},
 			"Night": {"source": "SkyNight.png"},
 		},
+		"Space": {
+			"Day": {"source": "Space.png"},
+			"Night": {"source": "SpaceNight.png"},
+		},
 	}
 }
