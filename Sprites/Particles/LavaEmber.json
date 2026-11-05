@@ -1,0 +1,9 @@
+{
+	"variations": {
+		"default": {"source": "LavaEmber.png", "rect": [0, 0, 24, 8] },
+		"Volcano": {
+			"Day": {"source": "LavaEmber.png", "rect": [0, 0, 24, 8] },
+			"Night": {"source": "LavaEmber.png", "rect": [0, 8, 24, 8] }
+		}
+	 }
+}
