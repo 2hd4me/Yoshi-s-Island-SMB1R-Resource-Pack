@@ -39,15 +39,18 @@
 				"Night": {"source": "SkyNightCampaign.png"},
 			},
 			"GameMode:BooRace": { "link": "GameMode:Campaign" },
+			"GameMode:Disco": { "link": "GameMode:Campaign" },
 		},
 		"Autumn": {
 			"SMB1": {"source": "Autumn.png"},
 		},
 		"Pipeland": {
-			"SMB1": {"source": "PipeLand.png"},
+			"Day": {"source": "Pipeland.png"},
+			"Night": {"source": "PipelandNight.png"},
 		},
 		"Space": {
-			"SMB1": {"source": "Space.png"},
+			"Day": {"source": "Space.png"},
+			"Night": {"source": "SpaceNight.png"},
 		},
 		"Underwater": {
 			"Day": {"source": "Underwater.png"},
