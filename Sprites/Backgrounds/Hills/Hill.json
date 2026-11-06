@@ -137,5 +137,9 @@
 			"Day": {"source": "Pipeland.png"},
 			"Night": {"source": "PipelandNight.png"},
 		},
+		"GhostHouse": {
+			"Day": {"source": "GhostHouse.png"},
+			"Night": {"source": "GhostHouseNight.png"},
+		},
 	}
 }
