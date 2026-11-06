@@ -130,5 +130,15 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
+		"GhostHouse": {
+			"Day": {
+				"source": "GhostHouse.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "GhostHouse.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
 	}
 }
