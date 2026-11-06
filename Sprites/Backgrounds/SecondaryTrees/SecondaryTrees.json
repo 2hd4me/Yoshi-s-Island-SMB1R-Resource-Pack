@@ -89,5 +89,23 @@
 			"Day": {"source": "Pipeland.png"},
 			"Night": {"source": "SpaceNight.png"},
 		},
+		"GhostHouse": {
+			"Day": {
+				"source": "GhostHouse.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 5,
+						"loop": true
+					}
+				},
+			},
+			"Night" : { "source": "GhostHouseNight.png" }
+		},
 	}
 }
