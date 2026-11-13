@@ -41,7 +41,7 @@
 	"variations": {
 		"GameMode:Default": {
 			"choices": [
-				{ "source": "ToadNPC.png", "rect": [0, 0, 224, 192],
+				{ "source": "ToadNPC.png", "rect": [0, 32, 224, 192],
 				"animations": {
 					"Idle": {
 						"frames": [
@@ -62,7 +62,7 @@
 					"Await": { "frames": [[128, 144, 32, 32]], "speed": 8, "loop": true },
 					"Talk": { "frames": [[160, 144, 32, 32], [192, 144, 32, 32]], "speed": 8, "loop": true, }
 				} },
-				{ "source": "ToadNPC.png", "rect": [224, 0, 224, 192],
+				{ "source": "ToadNPC.png", "rect": [224, 32, 224, 192],
 				"animations": {
 					"Idle": {
 						"frames": [
@@ -83,7 +83,7 @@
 					"Await": { "frames": [[128, 144, 32, 32]], "speed": 8, "loop": true },
 					"Talk": { "frames": [[160, 144, 32, 32], [192, 144, 32, 32]], "speed": 8, "loop": true, }
 				} },
-				{ "source": "ToadNPC.png", "rect": [0, 192, 224, 192],
+				{ "source": "ToadNPC.png", "rect": [0, 224, 224, 192],
 				"animations": {
 					"Idle": {
 						"frames": [
@@ -104,7 +104,7 @@
 					"Await": { "frames": [[128, 144, 32, 32]], "speed": 8, "loop": true },
 					"Talk": { "frames": [[160, 144, 32, 32], [192, 144, 32, 32]], "speed": 8, "loop": true, }
 				} },
-				{ "source": "ToadNPC.png", "rect": [224, 192, 224, 192],
+				{ "source": "ToadNPC.png", "rect": [224, 224, 224, 192],
 				"animations": {
 					"Idle": {
 						"frames": [
@@ -125,7 +125,7 @@
 					"Await": { "frames": [[128, 144, 32, 32]], "speed": 8, "loop": true },
 					"Talk": { "frames": [[160, 144, 32, 32], [192, 144, 32, 32]], "speed": 8, "loop": true, }
 				} },
-				{ "source": "ToadNPC.png", "rect": [0, 384, 224, 192],
+				{ "source": "ToadNPC.png", "rect": [0, 416, 224, 192],
 				"animations": {
 					"Idle": {
 						"frames": [
@@ -146,7 +146,7 @@
 					"Await": { "frames": [[128, 144, 32, 32]], "speed": 8, "loop": true },
 					"Talk": { "frames": [[160, 144, 32, 32], [192, 144, 32, 32]], "speed": 8, "loop": true, }
 				} },
-				{ "source": "ToadNPC.png", "rect": [224, 384, 224, 192],
+				{ "source": "ToadNPC.png", "rect": [224, 416, 224, 192],
 				"animations": {
 					"Idle": {
 						"frames": [
@@ -167,7 +167,7 @@
 					"Await": { "frames": [[128, 144, 32, 32]], "speed": 8, "loop": true },
 					"Talk": { "frames": [[160, 144, 32, 32], [192, 144, 32, 32]], "speed": 8, "loop": true, }
 				} },
-				{ "source": "ToadNPC.png", "rect": [0, 576, 224, 192],
+				{ "source": "ToadNPC.png", "rect": [0, 608, 224, 192],
 				"animations": {
 					"Idle": {
 						"frames": [
@@ -191,13 +191,13 @@
 			],
 		},
 		"GameMode:Campaign": {
-			"World1": { "source": "ToadNPC.png", "rect": [0, 0, 224, 192] },
-			"World2": { "source": "ToadNPC.png", "rect": [224, 0, 224, 192] },
-			"World3": { "source": "ToadNPC.png", "rect": [0, 192, 224, 192] },
-			"World4": { "source": "ToadNPC.png", "rect": [224, 192, 224, 192] },
-			"World5": { "source": "ToadNPC.png", "rect": [0, 384, 224, 192] },
-			"World6": { "source": "ToadNPC.png", "rect": [224, 384, 224, 192] },
-			"World7": { "source": "ToadNPC.png", "rect": [0, 576, 224, 192] },
+			"World1": { "source": "ToadNPC.png", "rect": [0, 32, 224, 192] },
+			"World2": { "source": "ToadNPC.png", "rect": [224, 32, 224, 192] },
+			"World3": { "source": "ToadNPC.png", "rect": [0, 224, 224, 192] },
+			"World4": { "source": "ToadNPC.png", "rect": [224, 224, 224, 192] },
+			"World5": { "source": "ToadNPC.png", "rect": [0, 416, 224, 192] },
+			"World6": { "source": "ToadNPC.png", "rect": [224, 416, 224, 192] },
+			"World7": { "source": "ToadNPC.png", "rect": [0, 608, 224, 192] },
 			"World8": { 
 				"sequence": [
 					{ "source": "ToadNPC.png", "rect": [448, 0, 128, 48],
@@ -293,12 +293,12 @@
 					} },
 				],
 			},
-			"World9": { "source": "ToadNPC.png", "rect": [224, 576, 224, 192] },
-			"World10": { "source": "ToadNPC.png", "rect": [0, 0, 224, 192] },
-			"World11": { "source": "ToadNPC.png", "rect": [224, 0, 224, 192] },
-			"World12": { "source": "ToadNPC.png", "rect": [0, 0, 224, 192] },
+			"World9": { "source": "ToadNPC.png", "rect": [224, 608, 224, 192] },
+			"World10": { "source": "ToadNPC.png", "rect": [0, 800, 224, 192] },
+			"World11": { "source": "ToadNPC.png", "rect": [224, 800, 224, 192] },
+			"World12": { "source": "ToadNPC.png", "rect": [0, 992, 224, 192] },
 			"World13": { "link": "World8" },
-			"World-1": { "source": "ToadNPC.png", "rect": [224, 0, 224, 192] },
+			"World-1": { "source": "ToadNPC.png", "rect": [224, 992, 224, 192] },
 		},
 		"GameMode:Disco": { "link": "GameMode:Campaign" },
 	}
