@@ -206,5 +206,54 @@
 			"Day": { "source": "GhostHouse.png" },
 			"Night": { "source": "JungleNight.png" },
 		},
+		"Garden": {
+			"Day": { "source": "Garden.png" },
+			"Night": { "source": "GardenNight.png" },
+		},
+		"Beach": {
+			"Day": {
+				"source": "Beach.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[2560, 0, 512, 512],
+							[3072, 0, 512, 512],
+							[3584, 0, 512, 512]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				},
+			},
+			"Night": {
+				"source": "BeachNight.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[2560, 0, 512, 512],
+							[3072, 0, 512, 512],
+							[3584, 0, 512, 512]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				},
+			},
+
+		},
+		"Mountain": {
+			"Day": {"source": "Mountain.png"},
+			"Night": {"source": "MountainNight.png"},
+		},
 	}
 }
