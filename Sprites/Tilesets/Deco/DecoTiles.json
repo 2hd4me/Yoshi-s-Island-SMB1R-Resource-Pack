@@ -140,5 +140,35 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
+		"Garden": {
+			"Day": {
+				"source": "Garden.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Garden.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Beach": {
+			"Day": {
+				"source": "Beach.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Beach.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
+		"Mountain": {
+			"Day": {
+				"source": "Mountain.png",
+				"rect": [0, 0, 80, 32]
+			},
+			"Night": {
+				"source": "Mountain.png",
+				"rect": [0, 32, 80, 32]
+			}
+		},
 	}
 }
