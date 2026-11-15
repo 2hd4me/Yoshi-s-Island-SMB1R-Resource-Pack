@@ -107,5 +107,17 @@
 			},
 			"Night" : { "source": "GhostHouseNight.png" }
 		},
+		"Garden": {
+			"Day": {"source": "Garden.png"},
+			"Night": {"source": "SkyNight.png"},
+		},
+		"Beach": {
+			"Day": {"source": "Beach.png"},
+			"Night": {"source": "BeachNight.png"},
+		},
+		"Mountain": {
+			"Day": {"source": "Mountain.png"},
+			"Night": {"source": "MountainNight.png"},
+		},
 	}
 }
