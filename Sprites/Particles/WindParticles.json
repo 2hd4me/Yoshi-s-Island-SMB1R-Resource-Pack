@@ -31,5 +31,17 @@
 			"Night": { "source": "Wind.png", "rect": [0, 208, 32, 16] },
 		},
 		"Volcano": { "link": "Castle" },
+		"Garden": { 
+			"Day": { "source": "Wind.png", "rect": [0, 224, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 240, 32, 16] },
+		},
+		"Beach": { 
+			"Day": { "source": "Wind.png", "rect": [0, 256, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 272, 32, 16] },
+		},
+		"Mountain": { 
+			"Day": { "source": "Wind.png", "rect": [0, 288, 32, 16] },
+			"Night": { "source": "Wind.png", "rect": [0, 304, 32, 16] },
+		},
 	}
 }
