@@ -4,6 +4,18 @@
 			"Day": {"source": "Overworld.png"},
 			"Night": {"source": "OverworldNight.png"},
 		},
+		"Overworld": {
+			"GameMode:Default": {
+				"Day": {"source": "Overworld.png"},
+				"Night": {"source": "OverworldNight.png"},
+			},
+			"GameMode:Campaign": {
+				"Day": {"source": "Overworld.png"},
+				"Night": {"source": "OverworldNightCampaign.png"},
+			},
+			"GameMode:BooRace": { "link": "GameMode:Campaign" },
+			"GameMode:Disco": { "link": "GameMode:Campaign" },
+		},
 		"Underground": {
 			"Day": {"source": "Underground.png"},
 			"Night": {"source": "UndergroundNight.png"},
@@ -21,13 +33,16 @@
 			"Night": {"source": "JungleNight.png"},
 		},
 		"Beach": {
-			"SMB1": {"source": "Beach.png"},
+			"Day": {"source": "Beach.png"},
+			"Night": {"source": "BeachNight.png"},
 		},
 		"Garden": {
-			"SMB1": {"source": "Garden.png"},
+			"Day": {"source": "Garden.png"},
+			"Night": {"source": "GardenNight.png"},
 		},
 		"Mountain": {
-			"SMB1": {"source": "Mountain.png"},
+			"Day": {"source": "Mountain.png"},
+			"Night": {"source": "MountainNight.png"},
 		},
 		"Skyland": {
 			"GameMode:Default": {
