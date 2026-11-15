@@ -94,5 +94,11 @@
 			"Day": { "source": "GhostHouse.png" },
 			"Night": { "source": "SnowNight.png" },
 		},
+		"Garden": { "link": "Snow"},
+		"Beach": { "link": "Snow"},
+		"Mountain": { 
+			"Day": { "source": "Snow.png" },
+			"Night": { "source": "MountainNight.png" },
+		},
 	}
 }
