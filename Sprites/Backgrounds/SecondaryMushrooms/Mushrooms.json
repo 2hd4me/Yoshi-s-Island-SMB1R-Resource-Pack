@@ -106,5 +106,31 @@
 			"Day": { "source": "GhostHouse.png" },
 			"Night": { "source": "JungleNight.png" },
 		},
+		"Garden": { 
+			"Day": { 			
+				"source": "Garden.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+						],
+						"speed": 8,
+						"loop": true
+					}
+				},
+			},
+			"Night": { "source": "GardenNight.png" },
+		},	
+		"Beach": {
+			"Day": {"source": "Beach.png"},
+			"Night": {"source": "BeachNight.png"},
+		},
+		"Mountain": {
+			"Day": {"source": "GhostHouse.png"},
+			"Night": {"source": "MountainNight.png"},
+		},
 	}
 }
