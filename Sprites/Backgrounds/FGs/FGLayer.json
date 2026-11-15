@@ -83,6 +83,10 @@
 			"Day": { "source": "Jungle.png" },
 			"Night": { "source": "JungleNight.png" },
 		},
+		"Garden": {			
+			"Day": { "source": "Garden.png" },
+			"Night": { "source": "GardenNight.png" },
+		},
 		}
 		}
 	}
