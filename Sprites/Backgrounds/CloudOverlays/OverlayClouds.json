@@ -4,7 +4,6 @@
 		"Desert": { "source": "Jungle.png", "blend": "add" },		
 		"Jungle": { "link": "Desert" },	
 		"Castle": { "link": "Desert" },	
-		"Volcano": { "link": "Desert" },
 		"Autumn": { "link": "Desert" },	
 		"Underground": {			
 			"Day": { "source": "CloudOverlay.png", "blend": "add" },
@@ -19,5 +18,9 @@
 			},
 		},
 		"CastleWater": { "link": "Underwater"},
+		"Volcano": {			
+			"Day": { "source": "Jungle.png", "blend": "add" },
+			"Night": { "source": "VolcanoNight.png", "blend": "add" },	
+		},	
 	}
 }
