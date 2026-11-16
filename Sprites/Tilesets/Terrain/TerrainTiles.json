@@ -93,7 +93,8 @@
 			"Night": {"source": "AirshipNight.png"},
 		},
 		"Bonus": {
-			"SMB1": {"source": "Bonus.png"},
+			"Day": {"source": "Bonus.png"},
+			"Night": {"source": "BonusNight.png"},
 		}
 	}
 }
